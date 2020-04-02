@@ -1,0 +1,10 @@
+blockquote.wp-block-quote::before {
+  background-image: url(../images/alt-quote.png);
+}
+.btn-readmore{
+  padding-right:-15px;
+}
+
+.post-content h5, .post-content h4, .post-content h3, .post-content h2, .post-content h1{
+  font-family: Nunito, "Space Mono" ;
+}
