@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ALT. Template</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/minimo.css">
+    <link rel="stylesheet" href="./assets/css/alt.css">
+    <link rel="stylesheet" href="./assets/css/alt-custom.css">
+  </head>
+  <body>
+
+
+    <header class="alt-header alt-header--top">
+      <div class="alt-container alt-header__container">
+
+        <a class="alt-header__logo__link" href="./">
+          <img class="alt-header__logo" src="./assets/images/alt-logo.png" />
+        </a>
+
+      <nav class="alt-header__left">
+        <a class="alt-header__left__menu-trigger" href="#" onclick="jQuery('#hamburger-show-menu').trigger('click'); return false;" data-menu-text="Menú" data-menu-close="Cerrar" role="button" aria-expanded="true">Menú</a>
+        <span class="alt-header__separator alt-separator">/</span>
+        <span class="alt-header__search">
+            <a class="alt-header__search-trigger" href="#" data-toggle="modal" data-target="#alt-modal">
+              <span class="alt-header__search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="15.44" height="15.441" viewBox="-0.449 -0.658 15.44 15.441"><circle fill="none" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" cx="5.974" cy="5.765" r="3.482"></circle><path fill="none" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" d="M8.436 8.228l3.446 3.5"></path></svg></span>
+            </a>
+        </span>
+      </nav>
+      <div class="alt-header__search__cover" onclick="document.body.classList.remove('search--open'); return false;"></div>
+      <nav class="alt-header__right">
+        <div class="alt-header__social-icons alt-social-hovers">
+          <div class="alt-social-hovers__item"></div>
+          <div class="alt-social-hovers__item"></div>
+          <div class="alt-social-hovers__item"></div>
+        </div>
+        <div class="alt-header__donate alt-hide">
+          <a href="#">Donar</a>
+          <span class="header__separator alt-separator">/</span>
+        </div>
+
+        <div class="alt-header__newsletter">
+          <a href="http://eepurl.com/gI65y9" data-toggle="modal" data-target="#subscribe-modal">
+            <i class="fas fa-paper-plane hide-730"></i>
+            Suscribirse
+          </a>
+        </div>
+
+        <span class="alt-header__separator alt-separator alt-hide">/</span>
+        <div class="alt-header__user alt-header__user--anonymous alt-hide">
+          <div class="alt-user-nav">
+            <a class="alt-header__sign-in" href="#" title="Sign In">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path fill="none" d="M0 0h24v24H0V0z"></path><g><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z"></path></g></svg>
+              <span>Ingresar</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+      </div>
+    </header>
+    <div id="fullscreen-menu">
+      <div class="menu-inner">
+        <nav class="menu-nav menu-nav-primary">
+            <ul id="menu-alt_menu_primario" class="menu"><li id="menu-item-2115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2115"><a href="https://alt.minimo.io/">Inicio</a></li>
+              <li id="menu-item-1976" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1976"><a href="https://alt.minimo.io/inalterados/">Inalterados</a></li>
+              <li id="menu-item-2124" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2124"><a href="https://alt.minimo.io/buscavidas/">Buscavidas</a></li>
+              <li id="menu-item-2111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2111"><a href="https://alt.minimo.io/wanderlust/">Wanderlust</a></li>
+            </ul>
+            <ul>
+              <li id="menu-item-more" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-more"><a class="menu-item-button-more" href="#" aria-expanded="true" role="button"><i class="fas fa-plus"></i></a></li>
+            </ul>
+        </nav>
+        <nav class="menu-nav menu-nav-secondary alt-hide">
+          <ul id="menu-alt_menu_secundario" class="menu">
+            <li id="menu-item-2122" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2122"><a href="https://alt.minimo.io/vitamina/">Vitamina</a></li>
+            <li id="menu-item-2123" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2123"><a href="https://alt.minimo.io/al-santo-pepe/">Al santo pepe</a></li>
+          </ul>
+          <ul>
+            <li id="menu-item-more" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-more"><a class="menu-item-button-back" href="#" aria-expanded="true" role="button"><i class="fas fa-reply"></i></a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <div class="social-icons">
+              <a href="https://wa.me/59896666902" target="_blank" class="icon">
+                <i class="fab fa-whatsapp-square fa-lg"></i>
+              </a>
+              <div class="langs icon">
+                <a href="#">NOSOTROS</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="back-to-the-future"><i class="fas fa-angle-double-up"></i></a>
+
+    <div class="post-format-image" style="background-image:url(https://alt.minimo.io/wp-content/uploads/2019/11/ruido.jpeg);"></div>
+
+    <article id="post-1926" class="post container post-1926 type-post status-publish format-image has-post-thumbnail hentry category-inalterados tag-salud post_format-post-format-image" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <header class="alt-post-header alt-top-title white-back">
+        <a class="breadcrumb-back-button" href="https://alt.minimo.io/inalterados/" aria-expanded="true" role="button"><i class="fas fa-reply"></i>&nbsp;volver</a>
+        <h1 class="post-title basic-mono" itemprop="name headline">Trastornos de ansiedad: tipos, síntomas, y soluciones</h1>
+        <h2 class="post-subtitle">Aprende a reconocer los trastornos de ansiedad y empieza a recorrer el camino para controlarla con esta guía en profundidad</h2>
+        <div class="container post-metabox">
+
+            <div class="row justify-content-start">
+              <div class="post-metabox-avatar-box">
+                <a href="https://alt.minimo.io/author/minimo/" rel="noopener">
+                  <img alt="user-avatar" class="post-user-avatar img-fluid img-thumbnail" src="https://secure.gravatar.com/avatar/a8d3c136b11a4b2447737b54e94c7adb?s=80&amp;d=mm&amp;r=g" width="51" height="51">
+                </a>
+              </div>
+              <div class="post-metabox-right">
+
+                  <a href="https://alt.minimo.io/author/minimo/" rel="noopener">Mínimo</a>
+
+                  <div class="post-metabox-bottom">
+                    <a rel="noopener" href="https://alt.minimo.io/inalterados/trastornos-de-ansiedad-tipos-sintomas-y-soluciones/">
+                      <time datetime="noviembre 5, 2019" itemprop="datePublished">5 Nov</time>
+
+                    </a> · <span data-toggle="tooltip" data-placement="top" title="" data-original-title="5861 palabras">29 min.</span>
+
+                    <span style="padding-left: 4px;">
+                      <svg class="star-15px_svg__svgIcon-use" width="15" height="15" viewBox="0 0 15 15" style="margin-top: -2px;"><path d="M7.44 2.32c.03-.1.09-.1.12 0l1.2 3.53a.29.29 0 0 0 .26.2h3.88c.11 0 .13.04.04.1L9.8 8.33a.27.27 0 0 0-.1.29l1.2 3.53c.03.1-.01.13-.1.07l-3.14-2.18a.3.3 0 0 0-.32 0L4.2 12.22c-.1.06-.14.03-.1-.07l1.2-3.53a.27.27 0 0 0-.1-.3L2.06 6.16c-.1-.06-.07-.12.03-.12h3.89a.29.29 0 0 0 .26-.19l1.2-3.52z"></path></svg>
+                    </span>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </header>
+
+      <div class="post-content white-back" itemprop="articleBody">
+
+    <p>Leticia se despertó cansada después de una mala noche de sueño en la que una y otra vez, y a pesar del esfuerzo en dejar de hacerlo, no podía dejar de pensar. Hay algunos asuntos que la preocupan, tiene la impresión de que algo en cualquier momento va a salir mal, se le cruzan pensamientos intensos y frecuentemente perturbadores a los que le da una importancia que no merecen. Se sienta en la cama, tensa, cansada, con su espalda contracturada, lo que hace las cosas todavía peor. Hace al menos un año que para Leticia levantarse cada mañana y empezar el día dejó de ser un experiencia agradable. Leticia tiene un trastorno de ansiedad. </p>
+
+
+
+    <h2>Índice</h2>
+
+
+
+    <ul><li><a href="#que-es-la-ansiedad">¿Qué es la ansiedad?</a></li><li><a href="#el-cortisol">El cortisol</a></li><li><a href="#tipos-de-ansiedad">Tipos de ansiedad, sus síntomas y soluciones</a><ul><li><a href="#ansiedad-generalizada">Ansiedad generalizada</a></li><li><a href="#ataques-de-panico">Ataques de pánico</a></li><li><a href="#ansiedad-social">Ansiedad social</a></li><li><a href="#agorafobia">Agorafobia</a></li><li><a href="#hipocondria">Hipocondría</a></li></ul></li><li><a href="#resumen-de-sintomas">Resumen de síntomas físicos y psicológicos de la ansiedad</a></li><li><a href="#como-controlar-la-ansiedad">¿Cómo controlar la ansiedad?</a><ul><li><a href="#terapia-cognitivo-conductual">Terapia Cognitivo Conductual</a></li><li><a href="#mindfulness">Mindfulness o meditación</a></li><li><a href="#otras-soluciones">Otras soluciones para el tratamiento de la ansiedad</a></li></ul></li></ul>
+
+
+
+    <h2 id="que-es-la-ansiedad">¿Qué es la ansiedad?</h2>
+
+
+
+    <p>Globalmente se estima que 284 millones de personas sufrieron trastornos de <a rel="noreferrer noopener" aria-label="ansiedad en el 2017 (abre en una nueva pestaña)" href="https://ourworldindata.org/mental-health#anxiety-disorders" target="_blank">ansiedad en el 2017</a>, 63% de las cuales fueron mujeres. Y si bien es una enfermedad que tiene excelente respuesta a los tratamientos, poca gente busca ayuda. Entender la ansiedad es el primer paso para comenzar a superarla y eso es lo que vamos a intentar realizar con esta guía, además de ofrecerte soluciones de una efectividad que ha sido probada científicamente.</p>
+
+
+
+    <blockquote class="wp-block-quote"><p>La ansiedad es un estado de agitación o de preocupación causado por miedos racionales o irracionales.</p></blockquote>
+
+
+
+    <p>La ansiedad es una condición innata de los seres humanos. Es un estado de agitación, de preocupación causada por miedos. Ahora bien, experimentar ansiedad en diferentes momentos de nuestra vida es algo esperable y normal, ya que los miedos mismos son algo normal. </p>
+
+
+
+    <p>Existen varios tipos de miedos, aquellos que son razonables, por ejemplo, antes de tomar un examen, durante un embarazo, antes de una primera cita, y en general ante cualquier situación donde intervengan expectativas sobre el futuro, o situaciones que están fuera de nuestro control. </p>
+
+
+
+    <p>Luego están aquellos miedos irracionales o basados en creencias equivocadas. Por ejemplo, la idea de que tenemos una enfermedad grave a pesar de que los médicos nos han dicho una y otra vez que no hay nada de malo en con nuestra salud.</p>
+
+
+
+    <p>Por eso debemos separar la ansiedad normal y episódica, de los desórdenes o trastornos de ansiedad. </p>
+
+
+
+    <p>Se considera que la persona presenta un trastorno de ansiedad cuando esta no es temporal, sino que es constante, obsesiva o recurrente, cuando involucra síntomas que interfieren con nuestra vida diaria, o con nuestra capacidad de relajarnos, o cuando está relacionada a miedos irracionales. </p>
+
+
+
+    <p>Hay diferentes tipos de trastornos de ansiedad. Está la <strong>ansiedad generalizada</strong>, las <strong>crisis de pánico</strong> o ataques de pánico, y varios <strong>desórdenes relacionados a fobias</strong>, como fobia social, agorafobia, entre muchas otras manifestaciones psicológicas, que van unidas casi siempre de síntomas físicos, debido a al aumento de los niveles de cortisol (la conocida como «hormona del estrés», segregada por las glándulas suprarrenales) o de adrenalina (en los casos por ejemplo de ataques de pánico).</p>
+
+
+
+    <p>Pero antes de profundizar en el tema y en sus soluciones es importante entender que a la hora de encarar el problema, mas que pensar en <strong>vivir sin ansiedad</strong>, lo que tenemos que considerar son las formas de controlarla, buscar sus causas e ir paulatinamente encontrando el valor para entender y enfrentar nuestros miedos, recuperar hábitos saludables, y ser consistentes en la práctica de las soluciones que iremos compartiendo en este artículo.</p>
+
+
+
+    <h2 id="el-cortisol">El cortisol</h2>
+
+
+
+    <p>Antes de profundizar sobre los tipos de ansiedad y sus soluciones hablemos un poco en el motivo por el cual las personas con trastornos de ansiedad padecen tantos síntomas físicos, que muchas veces se confunden con enfermedades reales, lo que inicia todo un nuevo ciclo de miedos y reacciones en cadena: <strong>El cortisol</strong>.</p>
+
+
+
+    <p>Esta hormona es vital ya que ayuda a nuestro cuerpo a responder ante diferentes situaciones de estrés. A diferencia de la adrenalina de la que hablaremos mas adelante y que está involucrada en los ataques de pánico, e cortiso es liberado en grandes cantidades cuando nos encontramos ante una situación estresante que parece que va a durar por un período prolongado.</p>
+
+
+
+    <blockquote class="wp-block-quote"><p>La función principal del cortisol es darnos la energía necesaria para enfrentar una situación de estrés de larga duración. Un exceso sostenido produce fatiga, mala concentración, mala memoria y aumento de peso, entre otros síntomas.</p></blockquote>
+
+
+
+    <p>Su función principal es es darnos la energía requerida para mantener en el tiempo la respuesta física al estrés. En situaciones de estrés crónico niveles altos de esta hormona causan fatiga, concentración pobre, sentimientos de incomodidad o inadecuación constantes, y una mayor incidencia de resfriados, úlceras u otras infecciones. </p>
+
+
+
+    <p>Para aquellos que sufren de ansiedad generalizada estos síntomas pueden resultar familiares, ya que son los niveles consistentemente altos de cortisol a lo largo del tiempo los que están en la causa central de muchos de los síntomas, dolores y malestares físicos crónica sufren quienes padecen de este tipo de ansiedad.</p>
+
+
+
+    <p>Afortunadamente hay muchas cosas que puedes hacer para reducir tus niveles de cortisol. Ya las veremos mas abajo en las soluciones.</p>
+
+
+
+    <h2 id="tipos-de-ansiedad">Tipos de ansiedad, sus síntomas y soluciones</h2>
+
+
+
+    <p>Existen muchos tipos o de manifestaciones de la ansiedad, que si bien varían de un individuo a otro están todas basadas en el mismo mal funcionamiento del mecanismo lucha o huída.</p>
+
+
+
+    <h3 id="ansiedad-generalizada">Ansiedad generalizada</h3>
+
+
+
+    <p>La persona, en tensión constante, se siente sobrepasada por casi cualquier situación, recuerdo o posibilidad de futuro. En la ansiedad generalizada la persona se encuentra visualizando todas las cosas que pueden salir mal, asignándoles una posibilidad irracionalmente alta de que ocurra lo peor. Afecta al doble de mujeres que de hombres y presenta síntomas parecidos a la depresión sin serlo. Veamos.</p>
+
+
+
+    <blockquote class="wp-block-quote"><p>La ansiedad generalizada se caracteriza por una sensación constante de temor.</p></blockquote>
+
+
+
+    <p>En general la gente con GAD (por sus siglas en inglés, ‘General Anxiety Disorder’) se queja de sentirse ansiosa todo el tiempo, y particularmente de experimentar una sensación constante de temor, de que algo terrible probablemente va a pasar. </p>
+
+
+
+    <p>Esto trae como consecuencia ciertos síntomas físicos y psicológicos de la ansiedad que son desagradables y algunas veces incapacitantes. Entre ellos están:</p>
+
+
+
+    <ul><li>Cansancio constante.</li><li>Incapacidad de concentración.</li><li>Mala calidad de sueño.</li><li>Rechinar de los dientes.</li><li>Tensión muscular. </li><li>Sensación de miedo agudo en algunas situaciones sin llegar necesariamente al ataque de pánico.</li><li>Sensación de tener dificultad para respirar. </li><li>Palpitaciones.</li></ul>
+
+
+
+    <blockquote class="wp-block-quote"><p>«[A las personas que padecen ansiedad generalizada] los describo como patos nadando en el agua. De afuera parecen muy serenos, flotando sobre el lago, pero por debajo están pataleando intensamente para poder seguir adelante».</p><cite>Dr. Harry Barry, especialista en trastornos de ansiedad.</cite></blockquote>
+
+
+
+    <p>Según el Dr. Harry Barry, especialista en trastornos de ansiedad del condado de Louth, Irlanada, las personas con ansiedad generalizada es como si vivieran en un estado de alta tensión constante ante todos los estímulos del día a día, enfocados en todo lo que puede salir mal.</p>
+
+
+
+    <p>En particular puede ser una condición muy difícil para las personas que las padecen, ya que influenciadas por los mismos miedos, no desean que su entorno lo sepa. </p>
+
+
+
+    <p>Lo que ocurre en la mente de estas personas es que la parte del cerebro llamada corteza prefrontal, encargada de los razonamientos complejos pasa mucho tiempo pensando en las posiblidades de que las cosas puedan salir mal, visualizándolas, y asignándoles un valor exageradamente negativo e inminente. </p>
+
+
+
+    <p>Esta parte del cerebro está íntimamente vinculada a la amígdala, encargada del <strong>sistema de estrés</strong>, es decir, su trabajo es ver el peligro. Entonces la amígdala se activa. Si se dispara de forma aguda libera adrenalina y si se dispara de un modo persistente dispara cortisol a través de las glándulas suprarrenales. Y es el cortisol el responsable de todos los síntomas físicos desagradables (ver arriba el apartado sobre cortisol). </p>
+
+
+
+    <h3>¿Qué causa la ansiedad generalizada?</h3>
+
+
+
+    <p>Por muchos años los especialistas se han preguntado si el trastorno de ansiedad generalizada era un problema genético o causado por el entorno. </p>
+
+
+
+    <p>Sabemos por ejemplo, que ciertos niños son ansiosos desde el momento en que nacen. Lo que nos dice que hay cierto porcentaje de la población que tiene cierta predisposición genética a ser ansiosa de esta forma. Pero sabemos al mismo tiempo que hay un peso muy importante de lo que se llama el factor epigenético. Este factor quiere decir la capacidad de nuestro entorno de activar o no activar ciertos genes, ciertas predisposiciones, como lo es la predisposición a la ansiedad generalizada.</p>
+
+
+
+    <p>Esto quiere decir por lo tanto que si hemos crecido en un hogar tranquilo, donde hay bajos niveles de estrés, o ansiedad, entonces en esas casas los niños tendrán menos posibilidades que se activen esos genes, y en general no sufrirán de ansiedad generalizada o desórdenes de ansiedad en general. </p>
+
+
+
+    <p>Por otro lado si nacemos en un hogar donde nuestra madre o nuestro padre están extremadamente ansiosos, si tienden a tener demasiadas preocupaciones (justificadamente o no, no importa para el niño), entonces esto causa que estos genes se activen fuertemente y entonces terminamos en la adultez, cuando estos genes se activan definitivamente, con los mismos comportamientos y hábitos mentales ansiosos de nuestros progenitores, constantemente preocupados, constantemente ansiosos.</p>
+
+
+
+    <p>Este estado de hiperactividad y el conjunto repetitivo de reacciones que se retro-alimenta de interpretaciones negativas, lleva a las personas con ansiedad generalizada a tener mas preponderancia a sufrir ataques de pánico, y a tener comportamientos destructivos, o buscar soluciones paliativas que son contraproducentes como el consumo excesivo benzodiazepinas o de alcohol. </p>
+
+
+
+    <p>El problema con los tranquilizantes o benzodiazepinas es que son muy efectivos en el corto plazo, pero no permiten a la amigdala aprender, y por lo tanto, bajo su efecto la terapia para la ansiedad no resulta todo lo efectiva que podría ser.</p>
+
+
+
+    <p>Otro problema de comportamiento que sufre la gente con ansiedad generalizada es que como tienen esta tendencia de pensar las cosas una y otra vez, terminan procrastinando, es decir, tienen a prosponer o aplazar tareas, deberes y responsabilidades, o decisiones en general. Lo cual también comienza una retroalimentación negativa, en donde el trabajo o las decisiones se acumulan, las terminan presionando aún mas, esto hace crecer la ansiedad y para mitigarla vuelven a los comportamientos obsesivos o impulsivos como el consumo de alcohol o los tranquilizantes. </p>
+
+
+
+    <h3>¿Cuales son las soluciones para la ansiedad generalizada?</h3>
+
+
+
+    <p>En los trastornos de ansiedad ayuda encarar el problema de forma holística, completa. </p>
+
+
+
+    <ul><li>Es muy importante entender que los síntomas físicos de la gente con ansiedad generalizada son frecuentemente creados por la amígdala. Y que la amígdala sólo responde a un número muy pequeño de tratamientos. <strong>Un punto clave de los mismos es aceptar la realidad de que estos síntomas son incómodos pero no peligrosos.</strong> Esto se aprende a través de la terapia (mira debajo en la <a href="#como-controlar-la-ansiedad">soluciones generales</a> para mas información). Luego también sabemos que la amígdala responde muy bien al ejercicio y a la meditación, realizados de forma consistente.</li><li>Al menos treinta minutos de ejercicio es una excelente forma de reducir la ansiedad. </li><li><a href="#mindfulness">Mindfulness o meditación</a> es otra de las formas de probado beneficio contra la ansiedad generalizada.</li><li>Intentar evitar la medicación en la medida de lo posible y en coordinación con su doctor.</li><li>Intenta evitar ir al Google para verificar síntomas o miedos. Ya que los mismos síntomas son prevalentes de enfermedades físicas reales, por lo que sólo empeorarás el problema de tu cerebro ávido por malas noticias.</li><li>Intenta evitar utilizar el alcohol como una muleta.</li><li>Y fundamentalmente intenta iniciar alguna forma de terapia. En particular la <a href="#terapia-cognitivo-conductual">Terapia Cognitivo Conductual</a> ha sido de probada eficacia en el tratamiento de la ansiedad generalizada. Ya que se enfoca en los disparadores de nuestra tendencia a pensar en términos catastróficos, corrigiendo nuestras interpretaciones equivocadas que están en la base del problema. Enseñando a las personas cómo cambiar su forma de pensar, y por lo tanto cómo cambiar su comportamiento.</li></ul>
+
+
+
+    <h2 id="ataques-de-panico">Ataques de pánico</h2>
+
+
+
+    <p>Imagina que estás cómodamente en tu casa mirando la televisión. Todos se han ido por lo que estás sola o solo en el living. Y de repente notas que tu corazón va un poquito mas rápido. Después comenzas a sentirte un poquito asustado, tomas conciencia de tu respiración y el corazón se acelera un poquito más. Estas sudando un poco, aunque no hace calor. Y comienza a tomar posición este sentimiento intenso de pavor, de terror, de que algo terrible va a pasarte. Sentimiento que intentas detener, lo cual lo hace peor,  cuando lo que realmente está ocurriendo en esa situación es que estás sufriendo un ataque de pánico, que no representa el riesgo que tu crees.</p>
+
+
+
+    <blockquote class="wp-block-quote"><p>A pesar de a ser un trastorno que parece tan serio, e incapacitante para quien lo padece, es uno de los trastornos de ansiedad que mas fácilmente se pueden controlar con terapia. </p></blockquote>
+
+
+
+    <p>Cuando esto te ocurre por primera vez puede ser una de las cosas mas aterradoras que alguien puede experimentar, porque uno se vuelve absolutamente convencido de que está a punto de morir, cuando en realidad no es así. Y eso es lo mas importante a recordar durante estos episodios. </p>
+
+
+
+    <p>Muchas personas experimentan síntomas y ataques de pánico alguna vez en sus vidas. Pero cuando sufrimos repetidos episodios de este tipo se le denomina trastorno de pánico y afecta alrededor del 5% de la población. </p>
+
+
+
+    <p>Paradójicamente a ser una condición que afecta tan seriamente a las personas que la padecen, <strong>es uno de los trastornos de ansiedad que mas fácilmente se pueden controlar con terapia</strong>. </p>
+
+
+
+    <p>Luego de la primera crisis de pánico, el próximo miedo de las personas que la padecen es cuándo va a volver a ocurrir. El llamado miedo al miedo.</p>
+
+
+
+    <h3>¿Qué causa los síntomas físicos de una ataque de pánico?</h3>
+
+
+
+    <p>Lo que ocurre realmente es que nuestro «cerebro emocional» está captando un peligro. Y cuando esta parte de nuestro cerebro cree estar en peligro envía señales necesarias para liberar adrenalina. Es decir, lo que básicamente estamos experimentando es un shock de adenalina.</p>
+
+
+
+    <p>Como hemos visto la adrenalina es la hormona de la respuesta inmediata al peligro, la conocida respuesta de lucha o huída (a diferencia del cortisol que es la hormona que nos permite sostener la alerta ante los peligros de larga duración). Su trabajo en realidad por lo tanto es protegernos. </p>
+
+
+
+    <p>Lo que hace en situaciones normales, ante peligros reales como puede ser el ataque de un perro es:</p>
+
+
+
+    <ul><li>Acelera nuestro ritmo cardíaco y nuestra respiración.</li><li>Nuestro estómago se hace nudos.</li><li>Causa tensión muscular para estar preparados para la respuesta.</li><li>Causa sequedad en la boca.</li><li>Y todos los demás síntomas normales en una crisis de pánico.</li></ul>
+
+
+
+    <p>En resumen, todo lo que nos está pasando durante un ataque de ansiedad es realmente que estamos teniendo una respuesta lo mas intensa que nuestro cuerpo puede producir para protegernos de un peligro. Solo que en este caso el peligro no existe y lo hemos creado nosotros, por una mala interpretación de la realidad.</p>
+
+
+
+    <h3>¿Qué NO hacer durante un ataque de pánico?</h3>
+
+
+
+    <p>Si no hicieramos nada para detener nuestra crisis de pánico, esta duraría no mas de diez minutos, porque ese el período que normalmente este shock de adrenalina dura en el organismo. </p>
+
+
+
+    <p>En cambio la respuesta habitual de la mayoría de las personas es intentar detenerlo, de diferentes formas. Las mas común es llamando una ambulancia, o buscando ayuda en emergencias, en donde se les dirá que no hay nada malo con ellas. Esto hace que la persona se ponga aún mas nerviosa, ya que a pesar de que le han dicho que no tiene nada, tuvo efectivamente esta experiencia terrible.</p>
+
+
+
+    <blockquote class="wp-block-quote"><p>Durante los ataques de pánico intentar evadir la situación sólo empeora las cosas a largo plazo</p></blockquote>
+
+
+
+    <p>Otra cosa que la gente suele intentar hacer es abandonar el lugar. Por ejemplo salir de la fila del supermercado, salir al auto, a la calle. Otros tendrán la tendencia de buscar ayuda de sus amigos, o esposos. Intentarán calmarse con tranquilizantes, o probarán ejercicios de respiración.</p>
+
+
+
+    <p>Desafortunadamente todas estas cosas aunque puedan parecer en una primera instancia que están ayudando con la situación en realidad la están haciendo peor, ya que refuerzan la idea en el cerebro emocional de que realmente está ocurriendo un peligro, aun cuando no sea así. Y en esas situaciones un ataque de pánico puede durar horas en vez de minutos.</p>
+
+
+
+    <h3>¿Que hacer durante un ataque de pánico?</h3>
+
+
+
+    <p>El Dr. Harry Barry, especialista en trastornos de ansiedad, recomienda un ejercicio interesante. Dado que lo peor que puedas hacer durante un ataque de pánico es intentar evitarlo, el ejercicio consiste en imaginar que estás pegado al suelo. Lo importante a recordar durante un ataque de pánico es que éste no representa un peligro. Y sabiéndolo dejar que los síntomas nos atraviesen, desafiarlos a que hagan lo peor. </p>
+
+
+
+    <blockquote class="wp-block-quote"><p>Durante un ataque de pánico es clave recordar que los síntomas son incómodos pero no peligrosos. Que debemos dejarlos pasar y no reforzar la idea equivocada.</p></blockquote>
+
+
+
+    <p>Puede parece extraño, pero el hecho de experimentar los síntomas y dejarlos ocurrir, nos permite enseñarle a nuestro cerebro emocional que en realidad no hay un peligro alguna. Y esto a su vez desactiva el mecanismo de segregación de mas adrenalina. Terminando con los síntomas.</p>
+
+
+
+    <p>¿El secreto entonces es no hacer nada? Exactamente. Es la única manera de no reforzar la idea de peligro. Recuerda que es solo una ola de adrenalina, incómoda pero no peligrosa, que se va en 5 a 10 minutos y que no representa ningún riesgo real para ti, porque la función de nuestro sistema de estrés es protegernos ante el peligro, no matarnos, por lo que todos estos miedos que aparecen durante un ataque de pánico, que vamos a morir, a tener un ataque cardíaco, que vamos a enloquecer, o a perder el control, no son mas que visualizaciones de peligros irreales en nuestra mente, que disparan la adrenalina y activan el mecanismo de lucha o huída. </p>
+
+
+
+    <p>Una vez que entendemos este mecanismo y estamos dispuestos a enfrentarlo, otro ejercicio que podemos hacer es ir a los lugares que nos dan temor, lugares llenos de gente, la fila de un supermercado e intentar llamar estos síntomas. Haciéndolo y superándolo, vamos a reforzar la idea que estamos en control (como realmente estamos).</p>
+
+
+
+    <p>El punto es ejercitarnos en perder el miedo al miedo. Y aunque puedan ser ejercicios que parecen contraintuitivos, son muy efectivos en el re-entrenamiento del cerebro emocional que nos causa problemas.</p>
+
+
+
+    <h2 id="ansiedad-social">Ansiedad social</h2>
+
+
+
+    <p>En el corazón de los trastornos de ansiedad social o fobia social está la idea de control. La idea de querer controlar nuestras vidas y sus circunstancias más allá de lo posible. Esto está afianzado en una cultura creciente de perfección, de competencia y de rating, que si bien es parte de la realidad humana, ha expandido su alcance e intensidad con el desarrollo de la conectividad, especialmente con el acceso creciente de la población a redes sociales digitales.   </p>
+
+
+
+    <p>La ansiedad social es aquella que se experimenta en relación a cualquier actividad social, cómo puede ser ir a una fiesta de cumpleaños, a un bar con conocidos, o por ejemplo, ante la perspectiva de hablar en público. </p>
+
+
+
+    <p>Existen dos tipos de ansiedad social. Por una lado está la llamada ansiedad social de interacción, y por otro la ansiedad social de rendimiento. </p>
+
+
+
+    <h3>Ansiedad social de interacción</h3>
+
+
+
+    <p>Tomemos el ejemplo de una reunión con amigos para ejemplificar el primer tipo de ansiedad social. Ante esta perspectiva una persona con ansiedad social, confirmará su apariencia una y otra vez ante el espejo, intentará planificar al detalle lo que va a hacer o decir. Y al llegar irá directamente en busca de un trago para calmar la ansiedad o al baño, para confirmar una vez más su apariencia.</p>
+
+
+
+    <p>Esta persona estará tan preocupada por como la están viendo que esto interferirá con su relacionamiento. No comenzará conversaciones. Utilizará comportamientos de que le den seguridad, cómo ponerse en un costado dónde no pueda ser vista. De hecho le aterrará la idea de ser puesta en conversaciones o que se le pregunte su opinión, porque tendrá miedo que la gente piense que dijo algo tonto o inapropiado. Por lo que si debe hacerlo ensayará en su mente lo que va a decir. Luego, al llegar a casa pasará una hora pensando en cómo lo ha hecho, en qué habrá pensado la gente de ella.</p>
+
+
+
+    <h3>Ansiedad social de rendimiento</h3>
+
+
+
+    <p>Esta persona puede que no se ponga ansiosa en situaciones en las que debe interactuar con otros, hasta que se le pide por ejemplo que haga un discurso, un brindis, una presentación de trabajo. Este es el caso de la ansiedad social ante la perspectiva de rendimiento donde la persona pasará horas preparando y confirmando su preparación una y otra vez, intentando estar segura de que no cometerá un error. Otra vez el deseo de control total, de perfección.</p>
+
+
+
+    <p>El principal miedo asociado a este tipo de ansiedad social está vinculado a quedar en blanco en algún punto de la exposición. Y que por lo tanto hacer el ridículo y por lo tanto ser juzgado negativamente. Este mecanismo se refuerza a si mismo, ya que a más miedo, la persona tendrá más dificultad para concentrarse y a más dificultad para concentrarse más posibilidades de quedar en blanco.</p>
+
+
+
+    <p>En ambos tipos de ansiedad social está involucrada la amígdala. Una de cuyas funciones es escanear constantemente los peligros, y en particular en contextos sociales, escanear e interpretar la información en los rostros de las personas en busca de potenciales peligros. </p>
+
+
+
+    <p>En casos de personas con ansiedad social hay usualmente una mala interpretación del significado de los rostros, en donde nuestra mente comienza a ver signos de que nos están juzgando negativamente cuando en realidad no es así. Al estar encargada además de nuestro sistema de estrés, cuando la amígdala se vuelve hiperactiva en estos contextos sociales, la persona además comienza a padecer los síntomas ya descritos de ansiedad aguda, cómo aceleración del pulso, sudoración, etc. </p>
+
+
+
+    <p>Como en todos los trastornos de ansiedad a esto se suma además nuestra parte racional que impulsada por el conjunto de malas interpretaciones y síntomas físicos, comienza a invadirnos con racionalizaciones equivocadas, y por pensamientos negativos. Así comienzan las visualizaciones de que la persona está haciendo el ridículo, de que está siendo aburrida, de que la están juzgando gorda o fea, o lo que sea que se vincule a sus miedos.</p>
+
+
+
+    <p>De esta forma las interacciones sociales para la persona que padece ansiedad social se vuelven algo que se sufre y por lo tanto algo que se tiende a evitar.</p>
+
+
+
+    <p>Es importante entender que lo que está en el centro de la ansiedad social es la idea de que si no hacemos las cosas a la perfección, las personas nos van a juzgar negativamente, y que tenemos que aceptar esos juicios, cuando no es así. </p>
+
+
+
+    <p>Afortunadamente para las personas que padecen este tipo de trastorno, la ansiedad social es una de las formas que mejor y más rápidamente responde a tratamientos con terapia conductual (ver mas abajo el apartado sobre <a href="#terapia-cognitivo-conductual">este tipo de terapia</a>).</p>
+
+
+
+    <h3 id="agorafobia">Agorafobia</h3>
+
+
+
+    <p>Las fobias son de los trastornos de ansiedad que mas afectan a los seres humanos. Entre otros objetos comunes de fobias simples está el miedo a los insectos, gatos, perros, ratones, arañas o serpientes. Existen también las fobias a situaciones como a estar en espacios cerrados, a los aviones, a las alturas, a las autopistas, a estar en contacto con sangre, o a los espacios abiertos. Para la mayoría de las personas estas fobias son una pequeña molestia y no requieren tratamiento para otras pueden significar una limitación importante en su calidad de vida.</p>
+
+
+
+    <p>Agorafobia viene del griego ἀγορά, agorá o «plaza pública» y -φοβία, -fobia o «miedo». Es un trastorno de ansiedad caracterizado por el miedo irracional a los espacios públicos o abiertos como por ejemplo iglesias, supermercados, cines, estacionamientos, centros comerciales, etc.</p>
+
+
+
+    <p>Como mecanismo de control la persona desarrolla comportamientos de seguridad como necesitar estar acompañado por miembros de su familia o amigos, evadirse de estar en esas situaciones encontrando excusas para no salir. En los casos severos quien la sufre llega a tener dificultad para salir de su propio dormitorio.</p>
+
+
+
+    <p>En el corazón de la agorafobia está la idea que si se encuentra en esa situación la persona sufrirá una crisis de pánico, o al menos un episodio de ansiedad extrema con los síntomas desagradables que la acompañan. Este es el miedo que hace a la persona evitar estas situaciones (vemos una vez mas el miedo en el centro del problema) y este comportamiento, que conduce al aislamiento de la persona, es el que termina por ser el problema principal. </p>
+
+
+
+    <p>Las soluciones a este trastorno de ansiedad pasa por aprender a controlar las crisis de pánico como explicábamos mas arriba y a través de una exposición gradual al desencadenante o «gatillo», (por ejemplo, comenzar a dejar la casa por etapas) bajo la supervisión y ayuda de un profesional que indique un tratamiento para la agorafobia. </p>
+
+
+
+    <p>Adicionalmente, aunque no atacan el centro del problema (los miedos y nuestra respuesta a ellos), ayuda, como ocurre en todos los trastornos de ansiedad, el hecho de recuperar hábitos saludables como son el ejercicio moderado, el control en el consumo de alcohol, y meditación o mindfulness.</p>
+
+
+
+    <h2 id="hipocondria">Hipocondría</h2>
+
+
+
+    <p>Llamada también ansiedad de salud incluye síntomas en el que la persona presenta una preocupación excesiva por la idea de tener o estar desarrollando una enfermedad grave.</p>
+
+
+
+    <p>La persona se preocupa por funciona corporales normales como la respiración, los latidos del corazón; por defectos físicos menores como manchas de la piel o granos, sensaciones físicas como un dolor de cabeza o estómago, y la persona tiene a recurrir a la ayuda médica una y otra vez a pesar de que le han asegurado que no presenta nada grave.</p>
+
+
+
+    <p>En resumen la hipocondría es uno mas de los trastornos de ansiedad que se da debido a la sobreestimación del peligro, es una actitud o valoración incorrecta o irracional basada en síntomas o somatizaciones que sí existen, usualmente precisamente debido a que la persona está ansiosa, lo cual refuerza el comportamiento.</p>
+
+
+
+    <p>El origen de mala interpretación puede darse por diferentes factores, como por ejemplo, la historia familiar («Mi madre murió de cancer»), por prevalencia de las noticias («Hay una nueva epidemia de Zika»), o por eventos personales donde efectivamente la persona vivió un experiencia físicamente dolorosa. Esto hace que la persona con ansiedad de salud esté sobre-atenta a sensaciones que normalmente pasaría desapercibidas. Ante este peligro percibido (aunque irreal) se activa el sistema de estrés del organismo con las consecuencias físicas de toda ansiedad aguda que ya hemos descrito en el apartado de <a href="#ansiedad-generalizada">Ansiedad generalizada</a>, <a href="#ataques-de-panico">Ataques de Pánico</a> y <a href="#agorafobia">Fobias</a>. </p>
+
+
+
+    <p>La clave del tratamiento de este tipo de ansiedad es lograr romper con el comportamiento que reafirma los miedos. Por ejemplo al buscar tranquilidad y confirmación en la sala de emergencias repetidamente, ya que de esta manera se desarrolla un círculo vicioso al notar una nueva sensación, o enterarse de una nueva enfermedad, malinterpretando el síntoma como peligroso, luego la persona se vuelve ansiosa por el peligro que ha malinterpretado, y vuelve al doctor en busca de tranquilidad. Esta nueva visita al médico calma temporalmente la ansiedad y pronto el ciclo comienza de nuevo.</p>
+
+
+
+    <p>Antes del tratamiento de este tipo de ansiedad debe descartarse cualquier problema médico pre-existente. Una vez que se ha confirmado que la persona goza buena salud, se comienza el tratamiento. Particularmente la <strong>Terapia Cognitiva Conductual</strong> (o CBT por sus siglas en inglés) ha demostrado ser particularmente efectiva en el tratamiento de los trastornos de ansiedad (ver <a href="#como-controlar-la-ansiedad">en las soluciones</a> el apartado sobre este tipo de terapia).</p>
+
+
+
+    <h2 id="resumen-de-sintomas">Resumen de <strong>síntomas físicos y psicológicos</strong> de la ansiedad</h2>
+
+
+
+    <p>Es importante no tomar ninguno de estos síntomas aisladamente a la hora de intentar determinar si padecemos trastornos de ansiedad, sino que mas bien debemos ser conscientes del conjunto a la hora de hacernos una idea de lo que nos pasa, y nada mejor para ello que recurrir a la ayuda de profesionales de terapia (mira mas abajo cómo buscar ayuda).</p>
+
+
+
+    <h3>Síntomas psicológicos de la ansiedad</h3>
+
+
+
+    <ul><li>Sensación de pérdida de control.</li><li>Sensación de peligro inminente.</li><li>Incapacidad de concentración.</li><li>Confusión y «visión de túnel».</li><li>Sensación de que vamos a enloquecer.</li><li>Catastrofismo. Pensamos en los peores resultados posibles y le asignamos una probabilidad alta de que ocurran.</li><li>Rumiaciones de malos recuerdos.</li><li>Inestabilidad emocional.</li><li>Idea de in-adecuación. De que todo, de una forma indefinida, está mal.</li><li>Pensar que en tenemos o estamos desarrollando alguna enfermedad grave.</li><li>Pensar que en cualquier momento tendremos un ataque de pánico y no sabremos controlarlo.</li><li>En situaciones sociales pensar que los otros nos están juzgando negativamente y que tenemos que aceptar sus juicios.</li><li>Estar irritable.</li></ul>
+
+
+
+    <h3>Síntomas físicos de la ansiedad</h3>
+
+
+
+    <ul><li>Cansancio constante o fatiga constante.</li><li>Mala calidad de sueño.</li><li>Tensión muscular.</li><li>Transtornos digestivos.</li><li>Aceleración del ritmo cardíaco y respiratorio.</li><li>«Nudos» en el estómago.</li><li>Sequedad en la boca.</li><li>Rechinar de los dientes.</li><li>Transpiración excesiva.</li><li>Temblores.</li></ul>
+
+
+
+    <p>Es importante recordar en el camino de aprender a controlar nuestra ansiedad que estos síntomas físicos son muy incómodos pero no peligrosos. <strong>Son consecuencia de nuestra mente desencadenando el proceso de protegernos ante el peligro.</strong> En estos casos peligros inexistentes, creados por nuestras malas interpretaciones de situaciones, que genera pensamientos negativos, reforzados mediante comportamientos de evasión o huída.</p>
+
+
+
+    <h2 id="como-controlar-la-ansiedad">¿Cómo controlar la ansiedad?</h2>
+
+
+
+    <p>Ya que la ansiedad es un mecanismo normal de los seres humanos no es algo a solucionar, sino que la forma correcta de enfocar el tema es desarrollar mejores hábitos para ir ganando paulatinamente el <strong>control de la ansiedad</strong>. </p>
+
+
+
+    <p>Lo primero es saber que lo que te pasa a ti le ocurre a miles de otras personas, <strong>¡saber que es posible mejorar!</strong> Y que esto requiere de buenos hábitos, tanto mentales como físicos ya que estos están en el centro del problema.</p>
+
+
+
+    <p>A lo largo de este artículo hemos recorrido soluciones específicas para cada uno de los <a href="#tipos-de-ansiedad">tipos de ansiedad</a>, pero vayamos ahora a algunas sugerencias generales, que tendrán un impacto positivo no importa el tipo de trastorno de ansiedad al que te enfrentes.</p>
+
+
+
+    <h3 id="terapia-cognitivo-conductual">Terapia Cognitivo Conductual (CBT)</h3>
+
+
+
+    <p>El concepto central en la Terapia Cognitivo Conductual es que nuestras creencias y pensamientos sobre una situación (por ejemplo el miedo al cáncer) afecta cómo nos sentimos (temerosos o ansiosos) y como nos comportamos respecto a ello (escaneamos nuestro cuerpo en busca de síntomas, consultamos en Google, vamos al doctor). No es la situación real la que nos causa los trastornos de ansiedad, sino el significado que le hemos dado. Y cuando alguien tiene un trastorno de ansiedad le da a los pensamientos mucho significado y por lo tanto mucho poder. </p>
+
+
+
+    <p>Este tipo de terapia se centra en sobreponernos a los miedos, mediante la corrección de pensamientos irracionales y cambiando los comportamientos problemáticos relacionados, nuestras reacciones o mecanismos de evasión. Cambiando nuestra forma de pensar podemos cambiar nuestra reacción ante la ansiedad y la incertidumbre.</p>
+
+
+
+    <div class="alert alert-success mb-4 mt-4" role="alert">Si crees que necesitas ayuda, y que es hora de iniciar tu proceso de recuperación, nosotros te ayudamos gratuitamente a ponerte en contacto con profesionales certificados.<br><div class="mt-2 mb-0"><a href="https://wa.me/59896666902" target="_blank" rel="nofollow" role="button" class="btn btn-green btn-block">¡RECIBIR AYUDA AHORA!</a></div></div>
+
+
+
+    <h3 id="mindfulness">Mindfulness o meditación</h3>
+
+
+
+    <p>Los trastornos de ansiedad son un estado de nuestra mente relacionado a la inhabilidad o dificultad para regular las emociones, pero la <a rel="noreferrer noopener" aria-label="investigación ha demostrado (abre en una nueva pestaña)" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1361002/" target="_blank">investigación ha demostrado</a> que la practica frecuente y constante de meditación reprograma las vías neuronales en el cerebro y por lo tanto mejora nuestra habilidad de regular estas emociones.</p>
+
+
+
+    <p>Mediante el Mindfulness o Atención Plena, en vez de resistirnos y perpetuarlos, aprendemos a estar en contacto con estos pensamientos y emociones, aprendemos a ver qué los desencadena, y a dejarlos ir. Aprendemos que los pensamientos que suelen acechar a quien padece trastornos de ansiedad, no nos definen, aprendemos que no son reales. Y sobre todo aprendemos a cambiar nuestra relación respecto a los miedos, diferenciando lo que es un episodio desencadenado por un miedo irracional, de lo que es real.</p>
+
+
+
+    <p>Existen muchas formas de iniciarse. La mejor para quienes recién comienzan es utilizar algunas de las aplicaciones de meditación guiada. <br>Mira la lista.</p>
+
+
+
+    <div class="table-responsive-md"><table class="table table-hover Xtable-borderless"><tbody>
+            <tr>
+              <td style="width:5%;"><span class="badge badge-pill badge-dark">1</span></td>
+              <td class="text-left" style="width:80%;"><strong>Calm</strong> - <span style="color:#838e95;">Respira profundo</span></td>
+              <td class="text-right"><a href="https://alt.minimo.io/producto/calm/" role="button" class="btn btn-primary">Ver</a></td>
+            </tr>
+
+            <tr>
+              <td style="width:5%;"><span class="badge badge-pill badge-dark">2</span></td>
+              <td class="text-left" style="width:80%;"><strong>Headspace</strong> - <span style="color:#838e95;">Meditar y dormir con facilidad.</span></td>
+              <td class="text-right"><a href="https://alt.minimo.io/producto/headspace/" role="button" class="btn btn-primary">Ver</a></td>
+            </tr>
+          </tbody></table></div>
+
+
+
+    <h3 id="otras-soluciones">Otras soluciones para el tratamiento de la ansiedad</h3>
+
+
+
+    <ol><li><strong>Reconocer el problema y permitirse ser abierto sobre nuestros trastornos de ansiedad.</strong> Hablar con alguien sobre tu ansiedad es importante. Recibir buenos consejos también. Tenemos este grupo de mejora personal, de suscripción gratuita, donde te ayudamos con buenas recomendaciones sobre cómo llevar una vida mas plena y saludable. <br><a href="https://alt.minimo.io/visita/suscribirse/" title="Suscribirse" class="thirstylink" rel="nofollow sponsored" target="" data-linkid="2066"><strong>Unite gratis aquí</strong></a>.</li><li>Música para calmar la ansiedad.</li><li>Ejercicio.</li><li>Dormir lo suficiente.</li><li>Aprende a reconocer tus malos hábitos mentales.</li><li>Alimentación.</li><li>Té relajante para el estrés.</li><li>Divertirse.</li><li>Desarrollar la confianza en uno mismo.</li></ol>
+
+
+
+    <p>Finalmente un poco de inspiración. Mira este video TED (con subtítulos en español) de Amy Morin, una trabajadora social clínica y psicoterapeuta licenciada, sobre su experiencia superando sus propios trastornos de ansiedad y haciéndose mentalmente mas fuerte.</p>
+
+
+
+    <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+    <iframe title="The Secret of Becoming Mentally Strong | Amy Morin | TEDxOcala" width="900" height="506" src="https://www.youtube.com/embed/TFbv757kup4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    </div></figure>
+    <style>#post-1926{
+    top: -40%;
+    position: relative;
+    background-color: white;
+    }</style><div class="post-content-end"></div><br><div class="tag-box"><a class="btn btn-light" href="https://alt.minimo.io/tema/salud/" role="button">Salud</a> </div>        <br><hr><br>
+
+         <div class="post-bottom-metabox container">
+
+             <div class="row justify-content-start">
+
+               <div class="col-flex post-bottom-metabox-left">
+                 <a href="https://alt.minimo.io/author/minimo/" rel="noopener">
+                   <img alt="user-avatar" class="post-bottom-user-avatar img-fluid img-thumbnail" src="https://secure.gravatar.com/avatar/a8d3c136b11a4b2447737b54e94c7adb?s=80&amp;d=mm&amp;r=g" width="80" height="80">
+                 </a>
+               </div>
+
+               <div class="col post-bottom-metabox-right">
+                 <div class="post-bottom-metabox-right-by text-uppercase">
+                  Escribió para <a class="btn btn-sm btn-purple" href="https://alt.minimo.io/inalterados/" role="button">Inalterados</a>
+                 </div>
+
+                   <a class="post-bottom-metabox-author-name" href="https://alt.minimo.io/author/minimo/" rel="noopener">Mínimo</a>
+
+                   <div class="post-bottom-metabox-bottom">
+
+                     <div class="post-bottom-metabox-bottom-bio"></div>
+
+                   </div>
+               </div>
+
+             </div>
+         </div>
+      </div>
+
+
+      <div class="post-divider"><hr></div>
+
+
+    <div id="comments" class="comments-area">
+
+    		<div id="respond" class="comment-respond">
+    		<h3 id="reply-title" class="comment-reply-title">Deja un comentario <small><a rel="nofollow" id="cancel-comment-reply-link" href="/inalterados/trastornos-de-ansiedad-tipos-sintomas-y-soluciones/#respond" style="display:none;">Cancelar respuesta</a></small></h3>			<form action="https://alt.minimo.io/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate="">
+    				<p class="comment-notes"><span id="email-notes">Tu dirección de correo electrónico no será publicada.</span> Los campos obligatorios están marcados con <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comentario</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Nombre <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required="required"></p>
+    <p class="comment-form-email"><label for="email">Correo electrónico <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required="required"></p>
+    <p class="comment-form-url"><label for="url">Web</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200"></p>
+    <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"><label for="wp-comment-cookies-consent">Guardar mi nombre, correo electrónico y sitio web en este navegador para la próxima vez que haga un comentario.</label></p>
+    <p class="form-submit"><input name="submit" type="submit" id="submit" class="btn btn-primary" value="Publicar comentario"> <input type="hidden" name="comment_post_ID" value="1926" id="comment_post_ID">
+    <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+    </p>			</form>
+    			</div><!-- #respond -->
+
+    </div><!-- #comments -->
+    </article>
+
+
+    <div id="alt-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <form id="searchform" class="search-form" method="get" action="https://alt.minimo.io/">
+            <div class="row">
+            <div class="col">
+            <input type="text" id="search-field" class="search-field" name="s" placeholder="&iquest;Qu&eacute; buscas?" value="">
+            </div>
+            <div class="col-sm-auto text-center">
+            <input class="btn btn-warning btn-extralg btn-search-field" style="width:100%;" type="submit" value="Buscar">
+            </div>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="subscribe-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-modal="true">
+      <div class="modal-dialog modal-dialog-centered flipInX animated faster" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+
+          <div id="mc_embed_signup">
+            <form action="https://minimo.us5.list-manage.com/subscribe/post?u=68c24e5e264d305f85e6cd9cd&amp;id=5a6086a9a6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+              <div id="mc_embed_signup_scroll">
+                <div class="mc-field-group">
+                  <label for="mce-EMAIL">Correo electrónico <span class="asterisk">*</span></label>
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-FNAME">Nombre </label>
+                  <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-LNAME">Apellido </label>
+                  <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                </div>
+
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_68c24e5e264d305f85e6cd9cd_5a6086a9a6" tabindex="-1" value=""></div>
+              </div>
+              <button type="submit" id="mc-embedded-subscribe" class="btn btn-warning btn-extralg btn-search-field btn-block">Suscribirse</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/alt.js"></script>
+  </body>
+</html>

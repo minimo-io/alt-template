@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ALT. Template</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/minimo.css">
+    <link rel="stylesheet" href="./assets/css/alt.css">
+    <link rel="stylesheet" href="./assets/css/alt-custom.css">
+  </head>
+  <body>
+
+
+    <header class="alt-header alt-header--top">
+      <div class="alt-container alt-header__container">
+
+        <a class="alt-header__logo__link" href="./">
+          <img class="alt-header__logo" src="./assets/images/alt-logo.png" />
+        </a>
+
+      <nav class="alt-header__left">
+        <a class="alt-header__left__menu-trigger" href="#" onclick="jQuery('#hamburger-show-menu').trigger('click'); return false;" data-menu-text="Menú" data-menu-close="Cerrar" role="button" aria-expanded="true">Menú</a>
+        <span class="alt-header__separator alt-separator">/</span>
+        <span class="alt-header__search">
+            <a class="alt-header__search-trigger" href="#" data-toggle="modal" data-target="#alt-modal">
+              <span class="alt-header__search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="15.44" height="15.441" viewBox="-0.449 -0.658 15.44 15.441"><circle fill="none" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" cx="5.974" cy="5.765" r="3.482"></circle><path fill="none" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" d="M8.436 8.228l3.446 3.5"></path></svg></span>
+            </a>
+        </span>
+      </nav>
+      <div class="alt-header__search__cover" onclick="document.body.classList.remove('search--open'); return false;"></div>
+      <nav class="alt-header__right">
+        <div class="alt-header__social-icons alt-social-hovers">
+          <div class="alt-social-hovers__item"></div>
+          <div class="alt-social-hovers__item"></div>
+          <div class="alt-social-hovers__item"></div>
+        </div>
+        <div class="alt-header__donate alt-hide">
+          <a href="#">Donar</a>
+          <span class="header__separator alt-separator">/</span>
+        </div>
+
+        <div class="alt-header__newsletter">
+          <a href="http://eepurl.com/gI65y9" data-toggle="modal" data-target="#subscribe-modal">
+            <i class="fas fa-paper-plane hide-730"></i>
+            Suscribirse
+          </a>
+        </div>
+
+        <span class="alt-header__separator alt-separator alt-hide">/</span>
+        <div class="alt-header__user alt-header__user--anonymous alt-hide">
+          <div class="alt-user-nav">
+            <a class="alt-header__sign-in" href="#" title="Sign In">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path fill="none" d="M0 0h24v24H0V0z"></path><g><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z"></path></g></svg>
+              <span>Ingresar</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+      </div>
+    </header>
+    <div id="fullscreen-menu">
+      <div class="menu-inner">
+        <nav class="menu-nav menu-nav-primary">
+            <ul id="menu-alt_menu_primario" class="menu"><li id="menu-item-2115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2115"><a href="https://alt.minimo.io/">Inicio</a></li>
+              <li id="menu-item-1976" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1976"><a href="https://alt.minimo.io/inalterados/">Inalterados</a></li>
+              <li id="menu-item-2124" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2124"><a href="https://alt.minimo.io/buscavidas/">Buscavidas</a></li>
+              <li id="menu-item-2111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2111"><a href="https://alt.minimo.io/wanderlust/">Wanderlust</a></li>
+            </ul>
+            <ul>
+              <li id="menu-item-more" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-more"><a class="menu-item-button-more" href="#" aria-expanded="true" role="button"><i class="fas fa-plus"></i></a></li>
+            </ul>
+        </nav>
+        <nav class="menu-nav menu-nav-secondary alt-hide">
+          <ul id="menu-alt_menu_secundario" class="menu">
+            <li id="menu-item-2122" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2122"><a href="https://alt.minimo.io/vitamina/">Vitamina</a></li>
+            <li id="menu-item-2123" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2123"><a href="https://alt.minimo.io/al-santo-pepe/">Al santo pepe</a></li>
+          </ul>
+          <ul>
+            <li id="menu-item-more" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-more"><a class="menu-item-button-back" href="#" aria-expanded="true" role="button"><i class="fas fa-reply"></i></a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <div class="social-icons">
+              <a href="https://wa.me/59896666902" target="_blank" class="icon">
+                <i class="fab fa-whatsapp-square fa-lg"></i>
+              </a>
+              <div class="langs icon">
+                <a href="#">NOSOTROS</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="back-to-the-future"><i class="fas fa-angle-double-up"></i></a>
+
+
+
+      <article id="post-2583" class="post container post-2583 type-post status-publish format-aside has-post-thumbnail hentry category-vitamina tag-fitness post_format-post-format-aside" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <header class="alt-post-header alt-top-title white-back">
+  <a class="breadcrumb-back-button" href="https://alt.minimo.io/vitamina/" aria-expanded="true" role="button"><i class="fas fa-reply"></i>&nbsp;volver</a>
+  <h1 class="post-title basic-mono" itemprop="name headline">Flexibilidad, el lado olvidado del entrenamiento físico completo</h1>
+  <h2 class="post-subtitle">Vamos a ver en profundidad qué es y cuál es el rol de la flexibilidad + una guía definitiva para utilizar en tus entrenamientos completos.</h2>
+  <div class="container post-metabox">
+  <div class="row justify-content-start">
+  <div class="post-metabox-avatar-box">
+  <a href="https://alt.minimo.io/author/minimo/" rel="noopener">
+  <img alt="user-avatar" class="post-user-avatar img-fluid img-thumbnail" src="https://secure.gravatar.com/avatar/a8d3c136b11a4b2447737b54e94c7adb?s=80&amp;d=mm&amp;r=g" width="51" height="51">
+  </a>
+  </div>
+  <div class="post-metabox-right">
+  <a href="https://alt.minimo.io/author/minimo/" rel="noopener">Mínimo</a>
+  <div class="post-metabox-bottom">
+  <a rel="noopener" href="https://alt.minimo.io/vitamina/flexibilidad-el-lado-olvidado-del-entrenamiento-fisico-completo/">
+  <time datetime="noviembre 19, 2019" itemprop="datePublished">19 Nov</time>
+  </a> · <span data-toggle="tooltip" data-placement="top" title="" data-original-title="902 palabras">5 min.</span>
+  <span style="padding-left: 4px;">
+  <svg class="star-15px_svg__svgIcon-use" width="15" height="15" viewBox="0 0 15 15" style="margin-top: -2px;"><path d="M7.44 2.32c.03-.1.09-.1.12 0l1.2 3.53a.29.29 0 0 0 .26.2h3.88c.11 0 .13.04.04.1L9.8 8.33a.27.27 0 0 0-.1.29l1.2 3.53c.03.1-.01.13-.1.07l-3.14-2.18a.3.3 0 0 0-.32 0L4.2 12.22c-.1.06-.14.03-.1-.07l1.2-3.53a.27.27 0 0 0-.1-.3L2.06 6.16c-.1-.06-.07-.12.03-.12h3.89a.29.29 0 0 0 .26-.19l1.2-3.52z"></path></svg>
+  </span>
+  </div>
+  </div>
+  </div>
+  </div>
+  </header>
+  <div class="post-content white-back" itemprop="articleBody"><div class="alert alert-warning" role="alert"><a class="start_training_top" href="#app-flexibility"><i class="fas fa-play-circle"></i>&nbsp;Comenzar entrenamiento</a>.</div>
+  <center>
+  <figure class="figure">
+  <div class="post-thumbnail"><picture><img src="https://alt.minimo.io/wp-content/uploads/2019/11/flexibilidad-Neel-Shakilov.jpg" class="img-fluid rounded" alt="flexibilidad-Neel-Shakilov"></picture>
+  </div>
+  <figcaption class="figure-caption text-right">Por Neel Shakilov en Pixabay.</figcaption>
+  </figure>
+  </center>
+  <p>De la tríada de la que se compone todo entrenamiento físico completo, <strong>fuerza, resistencia y flexibilidad</strong>, esta última suele quedar de lado. En este caso no solo vamos a ver los motivos científicos de su importancia, sino que vamos a poder ejercitar con un entrenamiento completo de flexibilidad en un apptículo para utilizar cada vez que hagamos gimnasia.</p>
+  <div class="card app-card mb-4">
+  <div class="card-body">
+  <h5 class="card-title">Entrenamiento</h5>
+  <div id="app-flexibility" class="card-text"><div id="app-progress" class="progress d-none mb-1"><div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">0%</div></div><a class="start_training btn btn-primary btn-sm" data-status="0" href="#"><i class="fas fa-play-circle"></i>&nbsp;Comenzar (11 min.)</a><ul class="mt-3 mb-0"><li id="exercise-0" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Flexión del cuello (derecha)</li><li id="exercise-1" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Flexión del cuello (izquierda)</li><li id="exercise-2" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Extensión de hombros</li><li id="exercise-3" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;20s. Pose de niño</li><li id="exercise-4" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Pose de niño con foco lateral</li><li id="exercise-5" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Pose de niño con giro pectoral (derecha)</li><li id="exercise-6" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Pose de niño con giro pectoral (izquierda)</li><li id="exercise-7" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Lagartijas McKenzie</li><li id="exercise-8" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;20s. Piernas dobladas hacia el pecho</li><li id="exercise-9" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Piernas hacia los costados</li><li id="exercise-10" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Estiramiento de gluteos (derecha)</li><li id="exercise-11" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Estiramiento de gluteos (izquierda)</li><li id="exercise-12" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Giros de cadera</li><li id="exercise-13" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;60s. Sentadilla a parado</li><li id="exercise-14" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Estocada baja (derecha)</li><li id="exercise-15" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Estocada con giro (derecha)</li><li id="exercise-16" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Posición de rana</li><li id="exercise-17" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Estocada baja (izquierda)</li><li id="exercise-18" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Estocada con giro (izquierda)</li><li id="exercise-19" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Posición de rana</li><li id="exercise-20" class="exercise-list-item"><i class="far fa-clock"></i>&nbsp;30s. Sentadilla de descanso</li></ul></div>
+  </div>
+  </div>
+  <p>El entrenamiento de arriba está basado en <a rel="noreferrer noopener" aria-label="este video (abre en una nueva pestaña)" href="https://www.youtube.com/watch?v=L_xrDAtykMI" target="_blank">este video</a> de Tom Merrick, un coach de entrenamientos de fuerza y movilidad basado en el Reino Unido.</p>
+  <h2>¿Qué es la flexibilidad?</h2>
+  <p>En el ámbito de los entrenamientos <strong>la flexibilidad es la capacidad de mover nuestras articulaciones en su rango completo de movimiento</strong>, también se refiere a la capacidad de tus músculos de moverse sin restricciones lo que a su vez también permite aumentar tu capacidad y rango de movimiento.</p>
+  <blockquote class="wp-block-quote"><p>La flexibilidad es el rango de movimiento en el que tus articulaciones son capaces de moverse.</p></blockquote>
+  <p>Existen tres componentes principales que afectan nuestra flexibilidad:</p>
+  <ul><li>La elasticidad muscular. </li><li>La estructura de nuestras articulaciones.</li><li>El sistema nervioso.</li></ul>
+  <p>Si bien en la comunidad científica hay debate sobre la clasificación de los diferentes tipos de flexibilidad y si bien esta ha ido variando con el tiempo, por motivos de simplificar un tema bastante complejo y presentar aquellos mas comunes, podemos considerar que existen dos grandes tipos de flexibilidad.</p>
+  <ul><li><strong>Estática.</strong> Este es el tipo que se mide en posiciones inactivas del cuerpo. En estos casos el estiramiento es mantenido, ya sea por la propia fuerza del sujeto (estática-activa) o por una fuerza externa (estática-pasiva).</li><li><strong>Dinámica. </strong>Es aquella que en las acciones deportivas los músculos no activos ofrecen la menor cantidad de resistencia posible a los músculos activos. Se produce en fases de contracción – relajación.</li></ul>
+  <p>En caso de que quieras profundizar sobre este tema existe una excelente revisión en la Revista Internacional de Ciencias del Deporte<sup><a href="#estudio-1">1</a></sup>.</p>
+  <p>Los ejercicios de flexibilidad pueden ayudarte a prevenir lesiones, dolor de espalda y problemas de equilibrio, sin embargo, <strong>de acuerdo al Havard Medical School<sup><a href="#estudio-2">2</a></sup> estos ejercicios ya no son recomendados antes de un ejercicio intenso</strong>, sino como una rutina post-ejercicio. </p>
+  <p>Es importante entender que los ejercicios de flexibilidad no son ejercicios de calentamiento, y que podrías lesionarte si antes de realizarlos no te tomas al menos 10 minutos para calentar tus músculos. Es por esta razón que se recomienda realizarlos después y no antes de tus ejercicios.</p>
+  <p>En <a href="https://alt.minimo.io/vitamina/">Vitamina</a> vamos a hablar en siguientes artículos sobre qué es y en qué consiste un correcto calentamiento, pero por ahora volvamos a lo nuestro.</p>
+  <h2>Beneficios del entrenamiento de flexibilidad</h2>
+  <p>Algo hemos dicho pero profundicemos en los beneficios de incorporar a nuestros entrenamientos los ejercicios de flexibilidad. </p>
+  <ul><li><strong>Aumento del rango de movimiento. </strong>Como ya hemos los ejercicios de flexibilidad aumentan los rangos de movimiento de nuestra articulaciones. Como consecuencia de esto nos vamos a sentir mas «libres», menos duros tanto si practicamos deporte como en nuestras actividades diarias.</li><li><strong>Reduce el riesgo de lesiones.</strong> Cuando nuestros músculos están flexibles somos menos propensos a lesionarnos debido a un correcto movimiento de los fluidos. </li><li><strong>Mejora el rendimiento atlético.</strong> Cuando nuestras articulaciones y músculos están flexibles utilizan menos energía para trabajar, lo cual mejora nuestro rendimiento general.</li><li><strong>Es una forma de relajación.</strong> Los entrenamientos de flexibilidad no solo impactan positivamente nuestra salud física sino nuestra salud mental. Disciplinas como el yoga realizan un equilibrio muy bueno entre flexibilidad, relajación y equilibrio.</li><li><strong>Adaptables.</strong> Es posible hacerlo por personas de todas las edades. Los ejercicios de flexibilidad son altamente adaptables a tus capacidades.</li></ul>
+  <h2>¿Cómo realizar ejercicios de flexibilidad?</h2>
+  <ul><li><strong>NO los realices en frío.</strong> Como dijimos, los ejercicios de flexibilidad no son ejercicios de calentamiento, por lo que antes de comenzar se recomienda<sup><a href="#estudio-3">3</a></sup> realizar ejercicios livianos y dinámicos durante al menos 10 minutos, como caminar, correr suavemente o andar en bicicleta. </li><li><strong>Estira hasta el punto de incomodidad NO de dolor. </strong>Para llegar al mejor nivel de flexibilidad no es recomendable estirar hasta sentir dolor. No solo por el riesgo de lesiones muscular y en los tejidos conectores, sino porque impactaremos negativamente nuestra elasticidad ya que nuestros cuerpo utilizará el mecanismo de «reflejo de estiramiento» que hará que se contraigan y acorten los mismos músculos que estamos intentando elongar<sup><a href="#estudio-4">4</a></sup> . Se recomienda solo avanzar en nuestro estiramiento una vez que hayamos sentido que nuestros músculos se distendieron en la primera posición.</li><li><strong>Mantené el estiramiento. </strong>El tiempo recomendado para mantener cada ejercicio de estiramiento estático es de 30 segundos y 60 segundos en aquellas zonas mas tensas.</li><li><strong>Enfocate en una sola área del cuerpo.</strong> La flexibilidad es específica de cada articulación; es decir no existen ejercicios para estirar muchos grupos musculares o articulaciones de una vez, por lo debes enfocarte de a una, priorizando aquellos lugares donde acumulamos tensión.</li></ul>
+  <h2>Referencias científicas</h2>
+  <ol><li id="estudio-1"><a href="https://www.cafyd.com/REVISTA/01604.pdf" target="_blank" rel="noreferrer noopener" aria-label="Revisión sobre tipos y clasificaciones de la flexibilidad. (abre en una nueva pestaña)">Revisión sobre tipos y clasificaciones de la flexibilidad.</a> Revisión sobre tipos y clasificaciones de la flexibilidad. Una nueva propuesta de clasificación. REVISTA INTERNACIONAL DE CIENCIAS DEL DEPORTE. VOLUMEN V – AÑO V . Páginas:52-70. ISSN:1885-3137. Nº 16 – Julio – 2009.</li><li id="estudio-2"><a href="https://www.health.harvard.edu/staying-healthy/benefits-of-flexibility-exercises">Beneficios de los ejercicios de flexibilidad,</a> por el Harvard Medical School (inglés).</li><li id="estudio-3"><a rel="noreferrer noopener" aria-label="Estiramiento: céntrate en la flexibilidad (abre en una nueva pestaña)" href="https://www.mayoclinic.org/es-es/healthy-lifestyle/fitness/in-depth/stretching/art-20047931" target="_blank">Estiramiento: céntrate en la flexibilidad</a>, Mayo Clinic.</li><li id="estudio-4"><a rel="noreferrer noopener" aria-label="¿Estirar debería doler? (abre en una nueva pestaña)" href="https://www.sharecare.com/health/stretching-exercise-warm-up/should-stretching-hurt-when-done" target="_blank">¿Estirar debería doler?</a>, por Greg Augustyn , NASM Elite Trainer (inglés).</li></ol>
+  <div class="post-content-end"></div><br><div class="tag-box"><a class="btn btn-light" href="https://alt.minimo.io/tema/fitness/" role="button">Fitness</a> </div> <br><hr><br>
+  <div class="post-bottom-metabox container">
+  <div class="row justify-content-start">
+  <div class="col-flex post-bottom-metabox-left">
+  <a href="https://alt.minimo.io/author/minimo/" rel="noopener">
+  <img alt="user-avatar" class="post-bottom-user-avatar img-fluid img-thumbnail" src="https://secure.gravatar.com/avatar/a8d3c136b11a4b2447737b54e94c7adb?s=80&amp;d=mm&amp;r=g" width="80" height="80">
+  </a>
+  </div>
+  <div class="col post-bottom-metabox-right">
+  <div class="post-bottom-metabox-right-by text-uppercase">
+  Escribió para <a class="btn btn-sm btn-danger" href="https://alt.minimo.io/vitamina/" role="button">Vitamina</a>
+  </div>
+  <a class="post-bottom-metabox-author-name" href="https://alt.minimo.io/author/minimo/" rel="noopener">Mínimo</a>
+  <div class="post-bottom-metabox-bottom">
+  <div class="post-bottom-metabox-bottom-bio"></div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="post-divider"><hr></div>
+  <div id="comments" class="comments-area">
+  <div id="respond" class="comment-respond">
+  <h3 id="reply-title" class="comment-reply-title">Deja un comentario <small><a rel="nofollow" id="cancel-comment-reply-link" href="/vitamina/flexibilidad-el-lado-olvidado-del-entrenamiento-fisico-completo/#respond" style="display:none;">Cancelar respuesta</a></small></h3> <form action="https://alt.minimo.io/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate="">
+  <p class="comment-notes"><span id="email-notes">Tu dirección de correo electrónico no será publicada.</span> Los campos obligatorios están marcados con <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comentario</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Nombre <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required="required"></p>
+  <p class="comment-form-email"><label for="email">Correo electrónico <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required="required"></p>
+  <p class="comment-form-url"><label for="url">Web</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200"></p>
+  <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"><label for="wp-comment-cookies-consent">Guardar mi nombre, correo electrónico y sitio web en este navegador para la próxima vez que haga un comentario.</label></p>
+  <p class="form-submit"><input name="submit" type="submit" id="submit" class="btn btn-primary" value="Publicar comentario"> <input type="hidden" name="comment_post_ID" value="2583" id="comment_post_ID">
+  <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+  </p> </form>
+  </div>
+  </div>
+  </article>
+
+
+
+    <div id="alt-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <form id="searchform" class="search-form" method="get" action="https://alt.minimo.io/">
+            <div class="row">
+            <div class="col">
+            <input type="text" id="search-field" class="search-field" name="s" placeholder="&iquest;Qu&eacute; buscas?" value="">
+            </div>
+            <div class="col-sm-auto text-center">
+            <input class="btn btn-warning btn-extralg btn-search-field" style="width:100%;" type="submit" value="Buscar">
+            </div>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="subscribe-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-modal="true">
+      <div class="modal-dialog modal-dialog-centered flipInX animated faster" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+
+          <div id="mc_embed_signup">
+            <form action="https://minimo.us5.list-manage.com/subscribe/post?u=68c24e5e264d305f85e6cd9cd&amp;id=5a6086a9a6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+              <div id="mc_embed_signup_scroll">
+                <div class="mc-field-group">
+                  <label for="mce-EMAIL">Correo electrónico <span class="asterisk">*</span></label>
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-FNAME">Nombre </label>
+                  <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-LNAME">Apellido </label>
+                  <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                </div>
+
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_68c24e5e264d305f85e6cd9cd_5a6086a9a6" tabindex="-1" value=""></div>
+              </div>
+              <button type="submit" id="mc-embedded-subscribe" class="btn btn-warning btn-extralg btn-search-field btn-block">Suscribirse</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/alt.js"></script>
+  </body>
+</html>
