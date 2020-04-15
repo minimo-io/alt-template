@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ALT. Template</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/minimo.css">
+    <link rel="stylesheet" href="./assets/css/alt.css">
+    <link rel="stylesheet" href="./assets/css/alt-custom.css">
+  </head>
+  <body>
+
+
+    <header class="alt-header alt-header--top">
+      <div class="alt-container alt-header__container">
+
+        <a class="alt-header__logo__link" href="./">
+          <img class="alt-header__logo" src="./assets/images/alt-logo.png" />
+        </a>
+
+      <nav class="alt-header__left">
+        <a class="alt-header__left__menu-trigger" href="#" onclick="jQuery('#hamburger-show-menu').trigger('click'); return false;" data-menu-text="Menú" data-menu-close="Cerrar" role="button" aria-expanded="true">Menú</a>
+        <span class="alt-header__separator alt-separator">/</span>
+        <span class="alt-header__search">
+            <a class="alt-header__search-trigger" href="#" data-toggle="modal" data-target="#alt-modal">
+              <span class="alt-header__search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="15.44" height="15.441" viewBox="-0.449 -0.658 15.44 15.441"><circle fill="none" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" cx="5.974" cy="5.765" r="3.482"></circle><path fill="none" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" d="M8.436 8.228l3.446 3.5"></path></svg></span>
+            </a>
+        </span>
+      </nav>
+      <div class="alt-header__search__cover" onclick="document.body.classList.remove('search--open'); return false;"></div>
+      <nav class="alt-header__right">
+        <div class="alt-header__social-icons alt-social-hovers">
+          <div class="alt-social-hovers__item"></div>
+          <div class="alt-social-hovers__item"></div>
+          <div class="alt-social-hovers__item"></div>
+        </div>
+        <div class="alt-header__donate alt-hide">
+          <a href="#">Donar</a>
+          <span class="header__separator alt-separator">/</span>
+        </div>
+
+        <div class="alt-header__newsletter">
+          <a href="http://eepurl.com/gI65y9" data-toggle="modal" data-target="#subscribe-modal">
+            <i class="fas fa-paper-plane hide-730"></i>
+            Suscribirse
+          </a>
+        </div>
+
+        <span class="alt-header__separator alt-separator alt-hide">/</span>
+        <div class="alt-header__user alt-header__user--anonymous alt-hide">
+          <div class="alt-user-nav">
+            <a class="alt-header__sign-in" href="#" title="Sign In">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path fill="none" d="M0 0h24v24H0V0z"></path><g><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z"></path></g></svg>
+              <span>Ingresar</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+      </div>
+    </header>
+    <div id="fullscreen-menu">
+      <div class="menu-inner">
+        <nav class="menu-nav menu-nav-primary">
+            <ul id="menu-alt_menu_primario" class="menu"><li id="menu-item-2115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2115"><a href="https://alt.minimo.io/">Inicio</a></li>
+              <li id="menu-item-1976" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1976"><a href="https://alt.minimo.io/inalterados/">Inalterados</a></li>
+              <li id="menu-item-2124" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2124"><a href="https://alt.minimo.io/buscavidas/">Buscavidas</a></li>
+              <li id="menu-item-2111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2111"><a href="https://alt.minimo.io/wanderlust/">Wanderlust</a></li>
+            </ul>
+            <ul>
+              <li id="menu-item-more" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-more"><a class="menu-item-button-more" href="#" aria-expanded="true" role="button"><i class="fas fa-plus"></i></a></li>
+            </ul>
+        </nav>
+        <nav class="menu-nav menu-nav-secondary alt-hide">
+          <ul id="menu-alt_menu_secundario" class="menu">
+            <li id="menu-item-2122" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2122"><a href="https://alt.minimo.io/vitamina/">Vitamina</a></li>
+            <li id="menu-item-2123" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2123"><a href="https://alt.minimo.io/al-santo-pepe/">Al santo pepe</a></li>
+          </ul>
+          <ul>
+            <li id="menu-item-more" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-more"><a class="menu-item-button-back" href="#" aria-expanded="true" role="button"><i class="fas fa-reply"></i></a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <div class="social-icons">
+              <a href="https://wa.me/59896666902" target="_blank" class="icon">
+                <i class="fab fa-whatsapp-square fa-lg"></i>
+              </a>
+              <div class="langs icon">
+                <a href="#">NOSOTROS</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="back-to-the-future"><i class="fas fa-angle-double-up"></i></a>
+
+    <div class="post-format-image" style="background-image:url(https://alt.minimo.io/wp-content/uploads/2019/11/no-vacancy-arte-fotografico-kourtney-roy.png);"></div>
+    <article id="post-2545" class="post container post-2545 type-post status-publish format-image has-post-thumbnail hentry category-al-santo-pepe post_format-post-format-image" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <header class="alt-post-header alt-top-title white-back">
+    <a class="breadcrumb-back-button" href="https://alt.minimo.io/al-santo-pepe/" aria-expanded="true" role="button"><i class="fas fa-reply"></i>&nbsp;volver</a>
+    <h1 class="post-title basic-mono" itemprop="name headline">El arte fotográfico de Kourtney Roy</h1>
+    <h2 class="post-subtitle">El arte entre la fotografía, el cine y la representación de la mujer.</h2>
+    <div class="container post-metabox">
+    <div class="row justify-content-start">
+    <div class="post-metabox-avatar-box">
+    <a href="https://alt.minimo.io/author/minimo/" rel="noopener">
+    <img alt="user-avatar" class="post-user-avatar img-fluid img-thumbnail" src="https://secure.gravatar.com/avatar/a8d3c136b11a4b2447737b54e94c7adb?s=80&amp;d=mm&amp;r=g" width="51" height="51">
+    </a>
+    </div>
+    <div class="post-metabox-right">
+    <a href="https://alt.minimo.io/author/minimo/" rel="noopener">Mínimo</a>
+    <div class="post-metabox-bottom">
+    <a rel="noopener" href="https://alt.minimo.io/al-santo-pepe/el-arte-fotografico-de-kourtney-roy/">
+    <time datetime="noviembre 18, 2019" itemprop="datePublished">18 Nov</time>
+    </a> · <span data-toggle="tooltip" data-placement="top" title="" data-original-title="601 palabras">3 min.</span>
+    <span style="padding-left: 4px;">
+    <svg class="star-15px_svg__svgIcon-use" width="15" height="15" viewBox="0 0 15 15" style="margin-top: -2px;"><path d="M7.44 2.32c.03-.1.09-.1.12 0l1.2 3.53a.29.29 0 0 0 .26.2h3.88c.11 0 .13.04.04.1L9.8 8.33a.27.27 0 0 0-.1.29l1.2 3.53c.03.1-.01.13-.1.07l-3.14-2.18a.3.3 0 0 0-.32 0L4.2 12.22c-.1.06-.14.03-.1-.07l1.2-3.53a.27.27 0 0 0-.1-.3L2.06 6.16c-.1-.06-.07-.12.03-.12h3.89a.29.29 0 0 0 .26-.19l1.2-3.52z"></path></svg>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </header>
+    <div class="post-content white-back" itemprop="articleBody">
+    <p>El arte fotográfico de Kourtney Roy, se pierde entre un ambiente cinematográfico pero mundano, el desierto, los lugares abandonados donde ella misma es el personaje, el sujeto y objeto de sus retratos y fotografías, que sugieren una realidad (o una fantasía) sin resolverse.</p>
+    <figure class="wp-block-image"><img src="https://alt.minimo.io/wp-content/uploads/2019/11/fixed-in-no-time-kourtney-roy.jpg" alt="fixed-in-no-time-arte-fotográfico" class="wp-image-2547"><figcaption>Fixed In No Time, Kourtney Roy</figcaption></figure>
+    <figure class="wp-block-image"><img src="https://alt.minimo.io/wp-content/uploads/2019/11/autoportraits-1-kourtney-roy.jpg" alt="autoportraits-2-arte-fotográfico" class="wp-image-2559"><figcaption>Autoportraits I, Kourtney Roy</figcaption></figure>
+    <p>Nacida en Canadá en 1981, y graduada en el Emily Carr University of Art &amp; Design en Vancouver, en el año 2004 Roy ha vivido y trabajado en París siendo una destacada fotógrafa de modas que ha contribuido con su trabajo para marcas como Dior o revistas como Wallpaper*. Sin embargo donde realmente Kourtney Roy capta nuestra imaginación es con su arte fotográfico.</p>
+    <p>Particularmente sus auto-retratos, donde ella es la única modelo, en fotografías tomadas en momentos que parecen congelados como en un frame detenido de una película, que intenta decirnos algo. Muchas mujeres, viviendo vidas diferentes, y al mismo tiempo todas son Roy.</p>
+    <blockquote class="wp-block-quote"><p> «Fotografiarme a mi misma es una manera de estudiar los múltiples y contradictorios temperamentos del yo».</p><cite>Kourtney Roy</cite></blockquote>
+    <ul class="wp-block-gallery columns-3 is-cropped"><li class="blocks-gallery-item"><figure><img src="https://alt.minimo.io/wp-content/uploads/2019/11/idea-woman-1-roy.jpg" alt="" data-id="2552" data-link="https://alt.minimo.io/?attachment_id=2552" class="wp-image-2552"></figure></li><li class="blocks-gallery-item"><figure><img src="https://alt.minimo.io/wp-content/uploads/2019/11/idea-woman-2-roy.jpg" alt="" data-id="2553" data-link="https://alt.minimo.io/?attachment_id=2553" class="wp-image-2553"></figure></li><li class="blocks-gallery-item"><figure><img src="https://alt.minimo.io/wp-content/uploads/2019/11/idea-woman-3-roy.jpg" alt="" data-id="2554" data-link="https://alt.minimo.io/?attachment_id=2554" class="wp-image-2554"></figure></li><li class="blocks-gallery-item"><figure><img src="https://alt.minimo.io/wp-content/uploads/2019/11/idea-woman-5-roy.jpg" alt="" data-id="2557" data-link="https://alt.minimo.io/?attachment_id=2557" class="wp-image-2557"><figcaption>Ideal Woman, Kourtney Roy</figcaption></figure></li></ul>
+    <p>En otra entrevista, esta vez en Plastik Magazine Roy responde ante la pregunta sobre cómo es el proceso creativo de crear nuevos personajes: «Es un proceso bastante lento e instintivo. Comienza con imágenes e ideas de un personaje que viene a mí. Lentamente, con el tiempo, este personaje comienza a desarrollarse a través de guiones gráficos que voy creando, inspirándome en literatura, el cine y el mundo a mi alrededor.»</p>
+    <p>En una entrevista con el periódico británico Telegraph Kourney Roy nos dice: «Siempre me impactan las imágenes de las películas. Amo a Douglas Sirk. Amo los colores y la decoración. Me gusta mucho Hitchcock, también, pero el ha sido objeto de tantas referencias en el mundo de la moda y el arte que no me molesto en ir por ese camino. ¿Sabés que otra cosa me gusta? <em>Don’t Look Now</em> [película]».</p>
+    <figure class="wp-block-image"><img src="https://alt.minimo.io/wp-content/uploads/2019/11/enter-as-fiction-2-kourtney-roy.jpg" alt="enter-as-fiction-arte-fotográfico" class="wp-image-2549"><figcaption>Enter As Fiction, Kourtney Roy</figcaption></figure>
+    <figure class="wp-block-image"><img src="https://alt.minimo.io/wp-content/uploads/2019/11/i-drink-new-orleans-kourtney-roy.jpg" alt="i-drink-new-orleans-arte-fotográfico" class="wp-image-2550"><figcaption>I Drink New Orleans, Kourtney Roy</figcaption></figure>
+    <p>Y continúa: «Una vez que comienzo a trabajar en el proyecto y a crear las imágenes el personaje toma vida propia. Tanto los lugares a los que voy a tomar las fotografías, y las cosas que veo y hago mientras estoy allí, influyen luego en las acciones de los personajes».</p>
+    <p>Finalmente se podría decir que el trabajo de <strong>arte fotográfico</strong> de Kourtney Roy nos intenta interpelar como todo arte que se precie de tal, en este caso sobre el escenario actual de representación de la mujer al que nos vemos expuesto en la vida diaria. </p>
+    <figure class="wp-block-image"><img src="https://alt.minimo.io/wp-content/uploads/2019/11/enter-as-fiction-kourtney-roy.jpg" alt="enter-as-ficiton-2-arte-fotográfico" class="wp-image-2548"><figcaption>Enter As Fiction, Kourtney Roy</figcaption></figure>
+    <p>Al respecto Roy dice: «La gente necesita saber que todo, y quiero enfatizar <em>todo</em> lo que ve está retocado. No solo las fotografías de moda, pero la fotografía de <a rel="noreferrer noopener" aria-label="publicidad (abre en una nueva pestaña)" href="https://minimo.io/2019/8/" target="_blank">publicidad</a>, películas, es todo un simulacro; y mientras mas rápido entendamos esto, menos terrible nos vamos a sentir respecto a las percepciones sobre nuestras propias deficiencias. «</p>
+    <p>Y finaliza: «Es extraño lo lejos que hemos llegado con los retoques. Cuando veo fotos antiguas de moda me sorprendo lo naturales que se ven. La sociedad se está moviendo cada vez mas y mas lejos de la realidad en lo que se refiere a la representación de las mujeres».</p>
+    <blockquote class="wp-block-quote"><p>«Yo realmente disfruto de tomar el estereotipo <em>kitsch</em>, y hacerlo ridículo». </p><cite>Kourtney Roy</cite></blockquote>
+    <figure class="wp-block-image"><img src="https://alt.minimo.io/wp-content/uploads/2019/11/autoportraits-2-roy.jpg" alt="arte-fotográfico-kourtney-roy" class="wp-image-2567"><figcaption>Autoportraits II, Kourtney Roy</figcaption></figure>
+    <div class="alert alert-warning" role="alert">
+    Mirá a Kourtney Roy en <a href="https://www.instagram.com/kourtneyroy/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i>&nbsp;Instagram</a> o en su <a href="http://www.kourtneyroy.com/?do=home" target="_blank" rel="nofollow noopener noreferrer"><i class="fas fa-globe"></i>&nbsp;Web</a>.
+    </div>
+    <div class="post-content-end"></div> <br><hr><br>
+    <div class="post-bottom-metabox container">
+    <div class="row justify-content-start">
+    <div class="col-flex post-bottom-metabox-left">
+    <a href="https://alt.minimo.io/author/minimo/" rel="noopener">
+    <img alt="user-avatar" class="post-bottom-user-avatar img-fluid img-thumbnail" src="https://secure.gravatar.com/avatar/a8d3c136b11a4b2447737b54e94c7adb?s=80&amp;d=mm&amp;r=g" width="80" height="80">
+    </a>
+    </div>
+    <div class="col post-bottom-metabox-right">
+    <div class="post-bottom-metabox-right-by text-uppercase">
+    Escribió para <a class="btn btn-sm btn-warning" href="https://alt.minimo.io/al-santo-pepe/" role="button">Al santo pepe</a>
+    </div>
+    <a class="post-bottom-metabox-author-name" href="https://alt.minimo.io/author/minimo/" rel="noopener">Mínimo</a>
+    <div class="post-bottom-metabox-bottom">
+    <div class="post-bottom-metabox-bottom-bio"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="post-divider"><hr></div>
+    <div id="comments" class="comments-area">
+    <div id="respond" class="comment-respond">
+    <h3 id="reply-title" class="comment-reply-title">Deja un comentario <small><a rel="nofollow" id="cancel-comment-reply-link" href="/al-santo-pepe/el-arte-fotografico-de-kourtney-roy/#respond" style="display:none;">Cancelar respuesta</a></small></h3> <form action="https://alt.minimo.io/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate="">
+    <p class="logged-in-as"><a href="https://alt.minimo.io/wp-admin/profile.php" aria-label="Conectado como Nicolás Erramuspe. Edita tu perfil.">Conectado como Nicolás Erramuspe</a>. <a href="https://alt.minimo.io/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Falt.minimo.io%2Fal-santo-pepe%2Fel-arte-fotografico-de-kourtney-roy%2F&amp;_wpnonce=6e393db807">¿Quieres salir?</a></p><p class="comment-form-comment"><label for="comment">Comentario</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="form-submit"><input name="submit" type="submit" id="submit" class="btn btn-primary" value="Publicar comentario"> <input type="hidden" name="comment_post_ID" value="2545" id="comment_post_ID">
+    <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+    </p><input type="hidden" id="_wp_unfiltered_html_comment_disabled" name="_wp_unfiltered_html_comment" value="1e79ee59a2"><script>(function(){if(window===window.parent){document.getElementById('_wp_unfiltered_html_comment_disabled').name='_wp_unfiltered_html_comment';}})();</script>
+    </form>
+    </div>
+    </div>
+    </article>
+
+    <div id="alt-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <form id="searchform" class="search-form" method="get" action="https://alt.minimo.io/">
+            <div class="row">
+            <div class="col">
+            <input type="text" id="search-field" class="search-field" name="s" placeholder="&iquest;Qu&eacute; buscas?" value="">
+            </div>
+            <div class="col-sm-auto text-center">
+            <input class="btn btn-warning btn-extralg btn-search-field" style="width:100%;" type="submit" value="Buscar">
+            </div>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="subscribe-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-modal="true">
+      <div class="modal-dialog modal-dialog-centered flipInX animated faster" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+
+          <div id="mc_embed_signup">
+            <form action="https://minimo.us5.list-manage.com/subscribe/post?u=68c24e5e264d305f85e6cd9cd&amp;id=5a6086a9a6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+              <div id="mc_embed_signup_scroll">
+                <div class="mc-field-group">
+                  <label for="mce-EMAIL">Correo electrónico <span class="asterisk">*</span></label>
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-FNAME">Nombre </label>
+                  <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-LNAME">Apellido </label>
+                  <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                </div>
+
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_68c24e5e264d305f85e6cd9cd_5a6086a9a6" tabindex="-1" value=""></div>
+              </div>
+              <button type="submit" id="mc-embedded-subscribe" class="btn btn-warning btn-extralg btn-search-field btn-block">Suscribirse</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/alt.js"></script>
+  </body>
+</html>

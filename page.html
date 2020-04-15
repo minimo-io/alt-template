@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ALT. Template</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/minimo.css">
+    <link rel="stylesheet" href="./assets/css/alt.css">
+    <link rel="stylesheet" href="./assets/css/alt-custom.css">
+  </head>
+  <body>
+
+
+    <header class="alt-header alt-header--top">
+      <div class="alt-container alt-header__container">
+
+        <a class="alt-header__logo__link" href="./">
+          <img class="alt-header__logo" src="./assets/images/alt-logo.png" />
+        </a>
+
+      <nav class="alt-header__left">
+        <a class="alt-header__left__menu-trigger" href="#" onclick="jQuery('#hamburger-show-menu').trigger('click'); return false;" data-menu-text="Menú" data-menu-close="Cerrar" role="button" aria-expanded="true">Menú</a>
+        <span class="alt-header__separator alt-separator">/</span>
+        <span class="alt-header__search">
+            <a class="alt-header__search-trigger" href="#" data-toggle="modal" data-target="#alt-modal">
+              <span class="alt-header__search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="15.44" height="15.441" viewBox="-0.449 -0.658 15.44 15.441"><circle fill="none" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" cx="5.974" cy="5.765" r="3.482"></circle><path fill="none" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" d="M8.436 8.228l3.446 3.5"></path></svg></span>
+            </a>
+        </span>
+      </nav>
+      <div class="alt-header__search__cover" onclick="document.body.classList.remove('search--open'); return false;"></div>
+      <nav class="alt-header__right">
+        <div class="alt-header__social-icons alt-social-hovers">
+          <div class="alt-social-hovers__item"></div>
+          <div class="alt-social-hovers__item"></div>
+          <div class="alt-social-hovers__item"></div>
+        </div>
+        <div class="alt-header__donate alt-hide">
+          <a href="#">Donar</a>
+          <span class="header__separator alt-separator">/</span>
+        </div>
+
+        <div class="alt-header__newsletter">
+          <a href="http://eepurl.com/gI65y9" data-toggle="modal" data-target="#subscribe-modal">
+            <i class="fas fa-paper-plane hide-730"></i>
+            Suscribirse
+          </a>
+        </div>
+
+        <span class="alt-header__separator alt-separator alt-hide">/</span>
+        <div class="alt-header__user alt-header__user--anonymous alt-hide">
+          <div class="alt-user-nav">
+            <a class="alt-header__sign-in" href="#" title="Sign In">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path fill="none" d="M0 0h24v24H0V0z"></path><g><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z"></path></g></svg>
+              <span>Ingresar</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+      </div>
+    </header>
+    <div id="fullscreen-menu">
+      <div class="menu-inner">
+        <nav class="menu-nav menu-nav-primary">
+            <ul id="menu-alt_menu_primario" class="menu"><li id="menu-item-2115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2115"><a href="https://alt.minimo.io/">Inicio</a></li>
+              <li id="menu-item-1976" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1976"><a href="https://alt.minimo.io/inalterados/">Inalterados</a></li>
+              <li id="menu-item-2124" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2124"><a href="https://alt.minimo.io/buscavidas/">Buscavidas</a></li>
+              <li id="menu-item-2111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2111"><a href="https://alt.minimo.io/wanderlust/">Wanderlust</a></li>
+            </ul>
+            <ul>
+              <li id="menu-item-more" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-more"><a class="menu-item-button-more" href="#" aria-expanded="true" role="button"><i class="fas fa-plus"></i></a></li>
+            </ul>
+        </nav>
+        <nav class="menu-nav menu-nav-secondary alt-hide">
+          <ul id="menu-alt_menu_secundario" class="menu">
+            <li id="menu-item-2122" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2122"><a href="https://alt.minimo.io/vitamina/">Vitamina</a></li>
+            <li id="menu-item-2123" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2123"><a href="https://alt.minimo.io/al-santo-pepe/">Al santo pepe</a></li>
+          </ul>
+          <ul>
+            <li id="menu-item-more" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-more"><a class="menu-item-button-back" href="#" aria-expanded="true" role="button"><i class="fas fa-reply"></i></a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <div class="social-icons">
+              <a href="https://wa.me/59896666902" target="_blank" class="icon">
+                <i class="fab fa-whatsapp-square fa-lg"></i>
+              </a>
+              <div class="langs icon">
+                <a href="#">NOSOTROS</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="back-to-the-future"><i class="fas fa-angle-double-up"></i></a>
+
+
+    <article id="post-11" class="post container post-11 page type-page status-publish format-standard hentry" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <header class="alt-post-header alt-top-title white-back">
+    <h1 class="post-title basic-mono" itemprop="name headline">Nosotros</h1>
+    <h2 class="post-subtitle">Una explicación conmovedora sobre porqué estamos empezando otra <span class="strikeout">mo*^fai*k**r</span> revista.</h2>
+    <div class="container post-metabox">
+    <div class="row justify-content-start">
+    <div class="post-metabox-avatar-box">
+    <a href="https://alt.minimo.io/author/nicolas/" rel="noopener">
+    <img alt="user-avatar" class="post-user-avatar img-fluid img-thumbnail" src="https://secure.gravatar.com/avatar/1a5cff8096aeebbb382886932b598df4?s=80&amp;d=mm&amp;r=g" width="51" height="51">
+    </a>
+    </div>
+    <div class="post-metabox-right">
+    <a href="https://alt.minimo.io/author/nicolas/" rel="noopener">Nicolás Erramuspe</a>
+    <a class="breadcrumb-back-button" href="" aria-expanded="true" role="button"><i class="fas fa-reply"></i>&nbsp;volver</a>
+    <div class="post-metabox-bottom">
+    <a rel="noopener" href="https://alt.minimo.io/nosotros/">
+    <time datetime="octubre 23, 2019" itemprop="datePublished">23 Oct</time>
+    </a> · <span data-toggle="tooltip" data-placement="top" title="" data-original-title="585 palabras">3 min.</span>
+    <span style="padding-left: 4px;">
+    <svg class="star-15px_svg__svgIcon-use" width="15" height="15" viewBox="0 0 15 15" style="margin-top: -2px;"><path d="M7.44 2.32c.03-.1.09-.1.12 0l1.2 3.53a.29.29 0 0 0 .26.2h3.88c.11 0 .13.04.04.1L9.8 8.33a.27.27 0 0 0-.1.29l1.2 3.53c.03.1-.01.13-.1.07l-3.14-2.18a.3.3 0 0 0-.32 0L4.2 12.22c-.1.06-.14.03-.1-.07l1.2-3.53a.27.27 0 0 0-.1-.3L2.06 6.16c-.1-.06-.07-.12.03-.12h3.89a.29.29 0 0 0 .26-.19l1.2-3.52z"></path></svg>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </header>
+    <div class="post-content white-back" itemprop="articleBody">
+    <div class="alert alert-success alert-small" role="alert">
+    <strong>El objetivo de ALT. es ser <u>sostenibles</u> a largo plazo para promover el bienestar.</strong> Por eso somos transparentes respecto a nuestras ganancias y pérdidas 🙂 Por eso también necesitamos que nos ayudes a no utilizar mas publicidad. ¡Es fácil y sin costo!
+    <hr>
+    <div>
+    <a href="#"><i class="fas fa-people-carry"></i>&nbsp;¡Quiero ayudar!</a> ·
+    <a href="/transparencia/"><i class="fas fa-search-dollar"></i>&nbsp;Informe de transparencia</a>
+    </div>
+    </div>
+    <h2>¿Qué?<br><span class="post-subtitle subtitle" style="display:block;line-height:normal;">Somos una plataforma para el crecimiento personal</span></h2>
+    <p>Tenemos este antojo raro de experimentar. De contrarrestar la ansiedad por noticias cortas y el clickbait manipulador con #longreads, y herramienta que aporten algo positivo a tu vida. Tenemos ganas de resistir a los chantas que escriben para quienes no quieren leer, por chantas que respalden sus artículos y audiovisuales con ciencia e investigación. Y al mismo tiempo queremos ser sostenibles. ¡Ajá!</p>
+    <p>Por eso lloramos cada tanto una milonga por tu <a href="https://alt.minimo.io/donar/">caridad</a>. Por eso molestamos a quienes todavía no quieren registrarse gratis y ser nuestros amigos, con algunas cookies y publicidad (<a href="#">lo menos posible, y con transparencia</a>).</p>
+    <blockquote class="wp-block-quote"><p>Somos un movimiento de personas y una plataforma con foco en el crecimiento personal. Queremos que seas mejor, que vos, ayer. </p></blockquote>
+    <p>Al margen de nuestros problemas (todos los tenemos) ALT. te propone empezar ¡hoy! a hacer algo por tu potencial. </p>
+    <p>Somos un movimiento de personas y una plataforma con foco en crecimiento personal y el bienestar, y para ello cubrimos las áreas de salud física y psicológica, de arte y humor, de naturaleza y viajes, de emprendedurismo y finanzas. </p>
+    <p>Una que te propone ayudar a conocerte, te propone explorar el mundo. Te propone cuidar de tu salud y la mejor forma de recuperarte de no haberlo logrado. Te propone <a href="https://alt.minimo.io/buscavidas/emprender-en-uruguay-apoyos-y-recursos/">emprender</a>, ser mas libre, mas independiente, comenzar a fracasar, insistir. Perder, ganar y festejar a lo grande. Aprender a entender el mundo que nos rodea y a la gente que lo habita a través de la ciencia accesible y comprensible. Te propone que se puede, a pesar de quienes dicen que no, a pesar de tu misma voz que a veces, en secreto, se les une. </p>
+    <blockquote class="wp-block-quote"><p>Inventamos el concepto de <strong>apptículos</strong>, artículos con los que es posible interactuar, igual que como hacés con cualquier aplicación. </p></blockquote>
+    <p>ALT. no pretende ser otra revista. Por eso creamos especialmente un tema de diseño minimalista con foco absoluto en el contenido y el concepto raro de los <strong>apptículos</strong>. Queremos explorar contigo una forma diferente de experimentar el mundo, tal vez no para todos, pero al menos para aquellos que todavía conservan algo de aquella de aquella <strong>curiosidad</strong>, y de aquel gusto por la <strong>calidad</strong> que se nos fue cayendo en el apuro de llegar a alguna parte.</p>
+    <blockquote class="wp-block-quote"><p>Queremos que nuestros apptículos sean gratuitos. Para dejar de ver publicidad podés registrarte. ¡Es grátis y accedés a todas las funciones de los apptículos!</p></blockquote>
+    <p>No contamos con el respaldo de ningún medio o publicación, por lo que dependemos del hecho que si encontrás valor en la propuesta, la compartas. De tu colaboración depende que sea sostenible realizar el contenido de calidad al que aspiramos, que podamos difundir a quienes llevan una vida diferente, a quienes hacen cosas. </p>
+    <p>Para no verla podes donar o registrarte. ¡Es gratis! Y si querés saber mas sobre porqué el mundo es imperfecto y usamos publicidad podés encontrar una excusa detallada en <a href="#">este artículo</a>.</p>
+    <br><div class="alert alert-success" role="alert">
+    Estamos buscando profesionales que puedan escribir artículos para las diferentes temáticas de ALT. Si crees que podrías colaborar <a href="https://wa.me/59896666902" target="_blank" rel="nofollow noopener noreferrer">ponete en contacto</a>.
+    </div>
+    <br><hr><br>
+    <div class="post-bottom-metabox container">
+    <div class="row justify-content-start">
+    <div class="col-flex post-bottom-metabox-left">
+    <a href="https://alt.minimo.io/author/nicolas/" rel="noopener">
+    <img alt="user-avatar" class="post-bottom-user-avatar img-fluid img-thumbnail" src="https://secure.gravatar.com/avatar/1a5cff8096aeebbb382886932b598df4?s=80&amp;d=mm&amp;r=g" width="80" height="80">
+    </a>
+    </div>
+    <div class="col post-bottom-metabox-right">
+    <div class="post-bottom-metabox-right-by text-uppercase">
+    Escribió
+    </div>
+    <a class="post-bottom-metabox-author-name" href="https://alt.minimo.io/author/nicolas/" rel="noopener">Nicolás Erramuspe</a>
+    <div class="post-bottom-metabox-bottom">
+    <div class="post-bottom-metabox-bottom-bio"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="post-divider"><hr></div>
+    </article>
+
+
+    <div id="alt-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <form id="searchform" class="search-form" method="get" action="https://alt.minimo.io/">
+            <div class="row">
+            <div class="col">
+            <input type="text" id="search-field" class="search-field" name="s" placeholder="&iquest;Qu&eacute; buscas?" value="">
+            </div>
+            <div class="col-sm-auto text-center">
+            <input class="btn btn-warning btn-extralg btn-search-field" style="width:100%;" type="submit" value="Buscar">
+            </div>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="subscribe-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-modal="true">
+      <div class="modal-dialog modal-dialog-centered flipInX animated faster" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+
+          <div id="mc_embed_signup">
+            <form action="https://minimo.us5.list-manage.com/subscribe/post?u=68c24e5e264d305f85e6cd9cd&amp;id=5a6086a9a6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+              <div id="mc_embed_signup_scroll">
+                <div class="mc-field-group">
+                  <label for="mce-EMAIL">Correo electrónico <span class="asterisk">*</span></label>
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-FNAME">Nombre </label>
+                  <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-LNAME">Apellido </label>
+                  <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                </div>
+
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_68c24e5e264d305f85e6cd9cd_5a6086a9a6" tabindex="-1" value=""></div>
+              </div>
+              <button type="submit" id="mc-embedded-subscribe" class="btn btn-warning btn-extralg btn-search-field btn-block">Suscribirse</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/alt.js"></script>
+  </body>
+</html>
