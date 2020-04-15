@@ -7,19 +7,22 @@ Help us improve and share!
 
 ## Changelog
 
+### 0.6
+* Only 1 css and 1 js file. April, 2019.
+
 ### 0.5
-* Released: October 23, 2019
+* Released: October 23, 2019.
 
 ## Roadmap
-For a full list of future features visit https://minimo.io/en/2019/10-alt-wordpress-theme/#roadmap
+For a full list of future features visit https://minimo.io/en/2019/10-alt-template/#roadmap
 
 ## Known bugs
-For a full list of known bugs visit https://minimo.io/en/2019/10-alt-wordpress-theme/#bugs
+For a full list of known bugs visit https://minimo.io/en/2019/10-alt-template/#bugs
 
-If you have some more please submit an Issue, and let us know! If you have the guts, help us with some coding and [submit a Pull Request](https://github.com/minimo-io/alt-wordpress-theme/pulls) (we are -for the most part- nice people :)
+If you have some more please submit an Issue, and let us know! If you have the guts, help us with some coding and [submit a Pull Request](https://github.com/minimo-io/alt-template/pulls) (we are -for the most part- nice people :)
 
 ## Copyright
 
-ALT. Theme (aka."Alt Minimo" or Alt), Copyright 2019 minimo.io
+ALT. Theme (aka."Alt Minimo" or Alt), Copyright 2019-2020 minimo.io
 <br>
 Alt is distributed under the terms of the GPL v2.0 or later license. :) Use it to make something cool.
