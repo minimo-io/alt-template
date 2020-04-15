@@ -224,7 +224,7 @@ display: block;
 }
 .post-content h2, .post-content h3, .post-content h4, .post-content h5{ font-weight: bold; }
 .post-content-end:after {
-    content: 'âœ¦';
+    content: '✦';
     display: block;
     text-align: center;
     color: #C5D1DE;
@@ -712,7 +712,11 @@ a.alt-header__left__menu-trigger:hover{
     -ms-flex-pack: center;
     justify-content: center;
 }
-.alt-header__newsletter{ background: rgba(255,255,0,0.4); }
+.alt-header__newsletter{
+  padding: 5px;
+  border-radius: 10px;
+  background: rgba(255,255,0,0.4);
+}
 
 
 .alt-header__newsletter a, .alt-header__search a, .alt-header__left a, .social-icons a, .menu-nav a{
@@ -793,7 +797,7 @@ a.alt-header__left__menu-trigger:hover{
 }
 .alt-header__logo {
   color: #c56b25;
-  width:85px;
+  width:80px;
   position:relative;
   top:-3px;
   transition:all .5s ease 0s;
@@ -804,7 +808,7 @@ a.alt-header__left__menu-trigger:hover{
 .alt-header-sticky-logo{
   width: 70px;
   position:relative;
-  top:-4px;
+  top:0;
 }
 .admin-bar .alt-header{
   top:32px;

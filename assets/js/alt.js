@@ -31,6 +31,9 @@ jQuery(document).ready(function(){
        if (e.keyCode == 27) { // escape key maps to keycode `27`
          if ($("body").hasClass("menu-open")) alt_menu_close();
       }
+      if (e.keyCode == 77) { // "m"
+        $(".alt-header__left__menu-trigger").trigger('click');
+      }
   });
 
   $('[data-toggle="tooltip"]').tooltip();
@@ -65,6 +68,13 @@ jQuery(document).ready(function(){
   });
 
 
+  $(document).on('click', 'a[href^="#"]', function (event) {
+      //event.preventDefault();
+
+      $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top - 80
+      }, 500);
+  });
   $('.back-to-the-future').click(function() {
       $("html, body").animate({
           scrollTop: 0
