@@ -70,9 +70,11 @@ jQuery(document).ready(function(){
 
   $(document).on('click', 'a[href^="#"]', function (event) {
       //event.preventDefault();
+      var hash_val = $.attr(this, 'href');
+      if (hash_val == "#") return;
 
       $('html, body').animate({
-          scrollTop: $($.attr(this, 'href')).offset().top - 80
+          scrollTop: $(hash_val).offset().top - 80
       }, 500);
   });
   $('.back-to-the-future').click(function() {

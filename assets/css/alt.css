@@ -272,11 +272,15 @@ a:hover {
 }
 
 hr {
-    border-bottom: 1px solid #ccc;
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-    margin: 1.5em 0
+  color: #333;
+  line-height: normal;
+  width: 100%;
+  margin: .75em 0;
+  height: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px dotted rgba(0,0,0,.1);
 }
 
 img,
@@ -336,12 +340,11 @@ dl {
 
 html,
 body {
-    width: 100%;
-    height: 100%
-}
-
-.red {
-    color: red
+  width: 100%;
+  height: 100%;
+  font-family: Courier, monospace, space mono;
+  color: #333;
+  font-size: 18px;
 }
 
 .clearfix,
@@ -360,14 +363,6 @@ body {
     content: " ";
     display: table;
     clear: both
-}
-
-
-hr {
-    border-top: none;
-    border-bottom: 2px solid #dedede;
-    width: 100%;
-    margin: .75em 0
 }
 
 .container {
@@ -401,14 +396,6 @@ hr {
 
 
 /* Ex-Minimo.css -------------------  */
-
-
-body,
-html {
-    font-family: Courier, monospace, space mono;
-    color: #333;
-    font-size: 18px
-}
 
 body {
     overflow-x: hidden
@@ -573,21 +560,8 @@ section {
     margin-top: 200px
 }
 
-section#sec-index,
-section#sec-profile {
-    margin-top: 5%
-}
-
-#sec-ethos {
-    margin-top: 8%
-}
-
-#sec-ethos .over-title {
-    font-size: 50px
-}
-
-#ethos nav a:hover {
-    text-decoration: underline
+.primary-container {
+    margin-top: 4%;
 }
 
 h1 {
@@ -623,58 +597,13 @@ h1.brand a {
     background-repeat: no-repeat
 }
 
-h2.bigtitle {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease
-}
 
-h2.bigtitle {
-    padding-top: 40px;
-    margin-bottom: 100px;
-    font-size: 15px;
-    font-family: Courier, monospace;
-    font-weight: 700;
-    padding-right: 20px;
-    letter-spacing: 0;
-    word-spacing: 0;
-    color: #000
-}
 
-#tell-me-moar * {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: -3px;
-    vertical-align: baseline;
-    box-sizing: unset;
-    border-bottom: 1px solid #000;
-    padding-bottom: 3px;
-    font-family: space mono, Courier, monospace
-}
 
-#tell-me-moar a {
-    color: #000;
-    font-size: 8px
-}
-
-#tell-me-moar a:hover {
-    color: #e83e8c;
-    border-bottom: 2px solid #0086b3
-}
-
-h2.bigtitle span,
-h2.bigtitle div,
 h2.secondtitle span {
     color: #cbcfd3
 }
 
-h2.bigtitle small {
-    font-size: 15px;
-    font-family: arial;
-    vertical-align: middle
-}
 
 .grey {
     color: #cbcfd3!important
@@ -709,10 +638,6 @@ h2.bigtitle small {
     position: fixed;
     bottom: 10px;
     left: 11%
-}
-
-.hero h2.bigtitle {
-    margin-top: 45vh
 }
 
 @-webkit-keyframes fade-img {
@@ -867,13 +792,6 @@ h2.bigtitle small {
     }
 }
 
-@media only screen and (min-width:320px) and (max-width:568px) and (-webkit-min-device-pixel-ratio:2) and (orientation:portrait) {
-    h2.bigtitle {
-        font-size: 28px;
-        margin-bottom: 40px
-    }
-}
-
 @media only screen and (min-width:768px) and (max-width:1024px) and (-webkit-min-device-pixel-ratio:1) {
     .container {
         width: 90%;
@@ -931,27 +849,6 @@ body.menu-open {
     display: table-cell
 }
 
-#contact {
-    display: table-cell;
-    vertical-align: middle;
-    margin: auto;
-    width: 100vw;
-    text-align: center
-}
-
-#contact .mb-3,
-#contact .custom-checkbox {
-    text-align: left
-}
-
-#contact button {
-    font-size: 1rem
-}
-
-#contact h2 {
-    font-weight: 700;
-    color: #000
-}
 
 .back-to-the-future {
     z-index: 10;
@@ -1061,91 +958,22 @@ body.menu-open {
     #fullscreen-menu .menu-inner nav ul li a {
         font-size: 20px
     }
-    h2.bigtitle,
-    h2.bigtitle small {
-        font-size: 15px
-    }
-    .profile-so-what-do-you-do {
-        font-size: 20px!important
-    }
-    #tell-me-moar a {
-        font-size: 8px
-    }
-    .project-content h2 {
-        font-size: 200%!important
-    }
-    .project-content p {
-        font-size: 60%!important
-    }
-    .project-content a {
-        font-size: .8rem!important
-    }
-    #profile-write {
-        font-size: 13px
-    }
+
 }
 
 @media(min-width:350px) {
     #fullscreen-menu .menu-inner nav ul li a {
         font-size: 30px
     }
-    h2.bigtitle {
-        font-size: 20px
-    }
-    h2.bigtitle small {
-        font-size: 16px
-    }
-    .profile-so-what-do-you-do {
-        font-size: 25px!important
-    }
-    #profile-write {
-        font-size: 15px
-    }
-    #tell-me-moar a {
-        font-size: 10px
-    }
-    .project-content h2 {
-        font-size: 220%!important
-    }
-    .project-content p {
-        font-size: 70%!important
-    }
-    .project-content a {
-        font-size: .85rem!important
-    }
 }
 
 @media(max-width:414px) {
-    .project-content {
-        bottom: 15%!important;
-        margin-left: 0!important
-    }
-    #sec-ethos nav a {
+    .primary-container nav a {
         width: 100%
     }
-    .profile-contact {
-        margin-top: 10px
-    }
-    #sec-profile .modal-body:first-child {
-        margin-top: 35%!important
-    }
-    #sec-profile .bigtitle {
-        padding: 0!important
-    }
-    #sec-profile h3 {
-        font-size: 22px!important
-    }
+
     blockquote p {
         letter-spacing: 0!important
-    }
-    .contact-hidden {
-        display: none
-    }
-    .principles-list a {
-        font-size: 85%!important
-    }
-    .principle h3 {
-        font-size: 110%!important
     }
 }
 
@@ -1169,35 +997,11 @@ body.menu-open {
     .over-title {
         font-size: 200%!important
     }
-    .journal .container:first-child {
-        padding-top: 0!important
-    }
 }
 
 @media(min-width:576px) {
     #fullscreen-menu .menu-inner nav ul li a {
         font-size: 40px
-    }
-    h2.bigtitle {
-        font-size: 26px
-    }
-    h2.bigtitle small {
-        font-size: 20px
-    }
-    .profile-so-what-do-you-do {
-        font-size: 30px!important
-    }
-    #tell-me-moar a {
-        font-size: 11px
-    }
-    .project-content h2 {
-        font-size: 240%!important
-    }
-    .project-content p {
-        font-size: 80%!important
-    }
-    .project-content a {
-        font-size: .9rem!important
     }
 }
 
@@ -1222,31 +1026,6 @@ body.menu-open {
 @media(min-width:768px) {
     #fullscreen-menu .menu-inner nav ul li a {
         font-size: 45px
-    }
-    h2.bigtitle {
-        font-size: 50px;
-        line-height: 1;
-        letter-spacing: -1.5px;
-        word-spacing: -12px
-    }
-    .profile-so-what-do-you-do {
-        font-size: 33px!important
-    }
-    #profile-write {
-        font-size: 18px;
-        padding-top: 4px
-    }
-    #tell-me-moar a {
-        font-size: 15px
-    }
-    .project-content h2 {
-        font-size: 250%!important
-    }
-    .project-content p {
-        font-size: 20px!important
-    }
-    .project-content a {
-        font-size: 1rem!important
     }
 }
 
@@ -1280,24 +1059,6 @@ body.open-nav {
 
 body.open-nav #fullscreen-menu {
     overflow-y: scroll
-}
-
-.principles-list {
-    font-family: Courier, monospace;
-    font-size: 120%
-}
-
-.principles-list a:hover {
-    text-decoration: underline
-}
-
-.rutina {
-    margin-left: 2%
-}
-
-.rutina li {
-    margin-top: 2px;
-    font-size: 18px
 }
 
 .upper {
@@ -1376,214 +1137,6 @@ blockquote p {
     opacity: .77
 }
 
-#section2:before {
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient(to top, yellow 0%, #BFB04A 80%);
-    opacity: .33
-}
-
-#section2 * {
-    text-align: left
-}
-
-.project-content {
-    color: #f3f3f3;
-    display: block;
-    position: absolute;
-    bottom: 20%;
-    left: 10%;
-    text-align: left;
-    margin: 20px
-}
-
-.project-content h2 {
-    font-size: 200%;
-    font-weight: 700;
-    box-sizing: border-box;
-    text-size-adjust: 100%;
-    margin-bottom: 20px;
-    font-family: permanent marker
-}
-
-.project-content p {
-    font-size: 60%;
-    letter-spacing: 3px;
-    margin-bottom: 30px;
-    max-width: 700px
-}
-
-.project-content span {
-    font-size: 60%
-}
-
-.project-content a {
-    color: #f8f9fa!important
-}
-
-#sec-projects a:hover {
-    color: #000!important;
-    text-decoration: none!important
-}
-
-#equipo-cards,
-#equipo-cards ul li {
-    list-style: none;
-    margin: 0;
-    padding: 0
-}
-
-ul#equipo-cards {
-    display: inline-block;
-    position: relative;
-    width: auto;
-    margin-top: 3%;
-    margin-left: 1.5em
-}
-
-#equipo-cards li {
-    box-sizing: border-box;
-    display: inline;
-    padding-top: 10px;
-    float: left;
-    height: auto;
-    -webkit-transition: all .3s ease!important;
-    transition: all .5s ease!important;
-    opacity: .8
-}
-
-#equipo-cards li:hover {
-    opacity: 1
-}
-
-#equipo-cards .card {
-    border: 0;
-    margin: 26px
-}
-
-#equipo-cards .card a {
-    border-radius: 50%
-}
-
-img.card-img-top {
-    width: 120px;
-    height: 120px;
-    max-width: 120px
-}
-
-#equipo-cards .collaborator {
-    width: 120px;
-    height: 120px;
-    max-width: 120px;
-    background-size: cover;
-    border-radius: 50%
-}
-
-#alf,
-#alf-hoverized {
-    background-image: url(../imgs/colls.png)
-}
-
-#alf {
-    background-position: 0 0
-}
-
-#alf:hover {
-    background-position: 120px 0
-}
-
-.maintenance .container {
-    width: 100vw;
-    height: 100vh;
-    position: relative
-}
-
-.maintenance .minimo-circle {
-    position: fixed;
-    top: 49%;
-    left: 50%;
-    display: block;
-    background-color: #000;
-    height: 200px;
-    width: 200px;
-    border-radius: 300px;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%)
-}
-
-.principle a {
-    color: #0086b3;
-    text-decoration: none!important
-}
-
-.principle a:hover {
-    color: #e83e8c;
-    border-bottom: 1px solid #e83e8c
-}
-
-.principle {
-    margin-bottom: 7%
-}
-
-.principle h3 {
-    font-family: Courier, monospace;
-    font-size: 35px
-}
-
-.principle h3,
-.principle p {
-    text-align: justify
-}
-
-.principle p {
-    font-size: 18px;
-    font-family: space mono, monospace;
-    letter-spacing: 1px;
-    line-height: 30px;
-    margin-top: 4%
-}
-
-.principle a {
-    font-weight: 400
-}
-
-.principle a:hover {
-    text-decoration: underline
-}
-
-.cross {
-    position: relative;
-    font-size: 110%;
-    display: inline-block
-}
-
-.cross::before,
-.cross::after {
-    content: '';
-    width: 100%;
-    position: absolute;
-    right: 0;
-    top: 55%
-}
-
-.cross::before {
-    border-bottom: 3px solid red;
-    -webkit-transform: skewY(-10deg);
-    transform: skewY(-10deg)
-}
-
-.cross::after {
-    border-bottom: 3px solid red;
-    -webkit-transform: skewY(10deg);
-    transform: skewY(10deg)
-}
 
 .atention {
     font-size: 200%;
@@ -1716,41 +1269,7 @@ path {
     opacity: .86
 }
 
-#sec-profile .principle {
-    margin-bottom: 0
-}
 
-#sec-profile .bigtitle {
-    margin-top: 9px!important
-}
-
-#sec-profile .principle p {
-    word-spacing: 0
-}
-
-#sec-profile .modal-body {
-    margin-top: 8%
-}
-
-#sec-profile .profile-so-what-do-you-do {
-    color: #aaa;
-    font-size: 20px;
-    font-family: sacramento, monospace
-}
-
-#sec-profile .profile-contact {
-    position: relative
-}
-
-#sec-profile .profile-contact-btn,
-.profile-more-contact-btn {
-    text-decoration: none;
-    width: 15%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border-radius: 22px;
-    min-width: 165px
-}
 
 .btn-pink {
     color: #e83e8c!important;
@@ -1767,85 +1286,6 @@ path {
     box-shadow: 0 0 0 4px rgba(0, 134, 179, .2)!important
 }
 
-#sec-profile .profile-more-contact-btn {
-    min-width: 20px;
-    width: 44px;
-    padding-top: 8px
-}
-
-#sec-profile .profile-contact-btn:hover,
-.profile-more-contact-btn:hover {
-    text-decoration: none!important
-}
-
-#sec-profile .lead-text,
-#sec-profile .principle p {
-    word-spacing: normal!important;
-    font-size: 18px!important;
-    letter-spacing: 1px;
-    line-height: 30px
-}
-
-#sec-profile .launch-historia {
-    cursor: pointer
-}
-
-#sec-profile a:hover {
-    text-decoration: underline
-}
-
-#sec-profile .badge {
-    font-size: 85%
-}
-
-#sec-profile .badge-success {
-    opacity: .7;
-    -webkit-transition: opacity .5s ease;
-    -moz-transition: opacity .5s ease;
-    -ms-transition: opacity .5s ease;
-    -o-transition: opacity .5s ease;
-    transition: opacity .5s ease
-}
-
-#sec-profile .badge-success a:hover {
-    text-decoration: none!important
-}
-
-#sec-profile .badge-success:hover {
-    opacity: 1
-}
-
-#profile-description {
-    text-align: justify
-}
-
-#historia-content,
-#principios-content,
-#rutina-content {
-    margin: 1%
-}
-
-.profile-subheader a {
-    color: #0086b3
-}
-
-.profile-subheader a:hover {
-    text-decoration: none!important;
-    color: #e83e8c
-}
-
-.post-list .container {
-    padding-top: 0!important
-}
-
-.journal #sec-ethos {
-    margin-top: 8.1%!important
-}
-
-.aaa {
-    color: #aaa
-}
-
 .langs {
     margin-left: 50px
 }
@@ -1859,34 +1299,17 @@ path {
 }
 
 .post-content {
-    font-family: space mono
-}
-
-.post-content {
-    font-size: 100%;
-    margin: 5%;
-    margin-top: 6%;
-    line-height: 150%;
-    letter-spacing: 1px;
-    text-align: left
-}
-
-.post-content h3,
-.post-content h2,
-.post-content h1 {
-    font-family: Courier, monospace
-}
-
-.alert-link:hover {
-    text-decoration: underline
+  font-family: "space mono", monospace;
+  font-size: 100%;
+  margin: 5%;
+  margin-top: 6%;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-align: left
 }
 
 .white-back {
-    background-color: #fff
-}
-
-.through {
-    text-decoration: line-through
+  background-color: #fff
 }
 /*  End of Ex-Minimo.css ------------ */
 
@@ -2129,7 +1552,7 @@ figcaption {
       font-size: 30px;
   }
 }
-#sec-ethos{ margin-top:4%; }
+
 .category-container{ margin-top:1rem !important; }
 @media (min-width: 1200px){
   #fullscreen-menu .menu-inner nav ul li a {
@@ -2158,7 +1581,7 @@ figcaption {
 
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-width: 1024px) and (min-width: 768px){
-  .main-container, .second-container, .post.container{ padding-left: inherit; }
+  .primary-container, .post.container{ padding-left: inherit; }
 }
 .post{ margin-top:1rem; }
 .alt-hide{ display:none; }
@@ -2599,9 +2022,11 @@ a.alt-header__left__menu-trigger:hover{
     justify-content: center;
 }
 .alt-header__newsletter{
+  top: -2px;
   padding: 5px;
   border-radius: 10px;
   background: rgba(255,255,0,0.4);
+  position: relative;
 }
 
 
@@ -2683,9 +2108,9 @@ a.alt-header__left__menu-trigger:hover{
 }
 .alt-header__logo {
   color: #c56b25;
-  width:80px;
+  width:70px;
   position:relative;
-  top:-3px;
+  top:0px;
   transition:all .5s ease 0s;
 }
 .alt-header__container{
@@ -2789,6 +2214,7 @@ a.alt-header__left__menu-trigger:hover{
 }
 .home-title{ font-size:1.2rem; color:rgb(133, 100, 4) !important;}
 .home-title-link:hover{color:black !important;}
+.card-posts-deck .card-meta{ font-size:.8rem; }
 
 /* MAX MEDIA VIEWPORTS */
 @media (max-width: 730px){
@@ -2797,8 +2223,6 @@ a.alt-header__left__menu-trigger:hover{
   .alt-header__left a, .alt-header__right a, .alt-separator{ font-size:13px; }
 
   .home-title{ line-height: normal; }
-  /* .carousel-featured h5{ font-size:1.2rem;} */
-  /* .carousel-caption{ bottom:4%; } */
 }
 @media (max-width: 991px){
   .modal .search-field, .modal .search-form input, #mc-embedded-subscribe-form input, #mc-embedded-subscribe, #mc-embedded-subscribe-form label{ font-size:.7em; }
@@ -3032,7 +2456,7 @@ a.alt-header__left__menu-trigger:hover{
   }
 }
 @media (min-width: 1024px){
-  /* .carousel-featured h5{ font-size:1.9rem; } */
+
 }
 
 
@@ -3149,4 +2573,29 @@ blockquote.wp-block-quote::before {
 
 .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5{
   font-family: Nunito, "Space Mono" ;
+  margin-bottom:1rem;
 }
+/* end of alt.css originally from child theme, to be integrated */
+
+/*  Bootstrap like breakpoints -------------- */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+  .alt-header__newsletter{ padding:3px 8px; }
+  .primary-container{
+    padding-top:15%;
+  }
+  .primary-container,
+  .post{
+    padding-left: .7rem;
+    padding-right: .7rem;
+  }
+
+}
+/*  End of Bootstrap like breakpoints -------------- */
