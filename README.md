@@ -1,5 +1,5 @@
 # ALT template
-ALT is Minimo's core Bootstrap template for products. A minimalist theme with an absolute focus on content. Also responsible father of the [ALT. Wordpress template](https://github.com/minimo-io/alt-wordpress-theme).
+A minimalist theme with an absolute focus on content. Also responsible father of the [ALT. Wordpress template](https://github.com/minimo-io/alt-wordpress-theme). ALT is [Mínimo](https://minimo.io)'s core Bootstrap template for prototyping products.
 
 The theme was developed to be in tune with [Mínimo’s design principles](https://minimo.io/en/manifest/). Set out to be a template that gets out of the way. Avoiding interruptions, and focused on delivering a beautiful reading experience.
 
