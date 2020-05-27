@@ -15,9 +15,3 @@ For a full list of future features visit https://minimo.io/en/2019/10-alt-templa
 For a full list of known bugs visit https://minimo.io/en/2019/10-alt-template/#bugs
 
 If you have some more please submit an Issue, and let us know! If you have the guts, help us with some coding and [submit a Pull Request](https://github.com/minimo-io/alt-template/pulls) (we are -for the most part- nice people :)
-
-## Copyright
-
-ALT. Theme (aka."Alt Minimo" or Alt), Copyright 2019-2020 minimo.io
-<br>
-Alt is distributed under the terms of the GPL v2.0 or later license. :) Use it to make something cool.
