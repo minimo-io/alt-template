@@ -1,20 +1,12 @@
-/*
-Theme Name: AltMinimo
-Theme URI: https://minimo.io/en/2019/10-alt-wordpress-theme/
-Author: MÃ­nimo
-Author URI: https://minimo.io/
-Description: A content-focused minimalist theme by minimo.io
-Version: 0.5.1
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: news, blog, photography, grid-layout, one-column, custom-header, custom-menu, featured-images, post-formats, sticky-post, translation-ready
-Text Domain: altminimo
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-*/
-
 @charset "UTF-8";
+/*!
+ * ALT. Template - https://minimo.io/en/2019/10-alt-template/
+ * Developer: minimo.io
+ * Version: 0.5.2
+ * License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html
+ *
+ * Copyright (c) 2020 alt
+ */
 @import 'https://use.fontawesome.com/releases/v5.7.0/css/all.css';
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
 @import 'https://fonts.googleapis.com/css?family=Space+Mono|Permanent+Marker';
@@ -2309,7 +2301,7 @@ a.alt-header__left__menu-trigger:hover{
 @media (max-width: 340px){
   .hide-730{ display:none; }
   .alt-header__left{ padding-left:1.5rem; }
-  .alt-header__right{ padding-right:1.5rem; }
+  .alt-header__right{ padding-right:1rem; }
 
   .alt-header{ letter-spacing: 0.06rem;}
   .alt-header__left a, .alt-header__right a, .alt-separator{ font-size:10px; }
@@ -2587,7 +2579,7 @@ blockquote.wp-block-quote::before {
 @media (max-width: 768px) {
 }
 @media (max-width: 576px) {
-  .alt-header__newsletter{ padding:3px 8px; }
+  .alt-header__newsletter{ padding:0px 5px 4px 6px; }
   .primary-container{
     padding-top:15%;
   }
