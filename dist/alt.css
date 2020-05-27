@@ -1510,7 +1510,8 @@ display: block;
   width: 75px;
   height: 60px;
   margin-bottom: .5em;
-  background-image: url(./images/alt-quote.png);
+  /* background-image: url(./images/alt-quote.png); */
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 20010904//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'%3E%3Csvg version='1.0' xmlns='http://www.w3.org/2000/svg' width='107.000000pt' height='83.000000pt' viewBox='0 0 107.000000 83.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,83.000000) scale(0.100000,-0.100000)'%0Afill='%23ff0000' stroke='none'%3E%3Cpath d='M268 720 c-97 -101 -153 -259 -146 -410 8 -149 70 -223 188 -223 89%0A0 147 46 171 135 24 89 -13 167 -98 208 -29 14 -53 31 -53 38 0 19 45 105 73%0A138 13 16 29 39 36 51 26 50 -22 113 -87 113 -30 0 -44 -8 -84 -50z'/%3E%3Cpath d='M748 720 c-97 -101 -153 -259 -146 -410 8 -149 70 -223 188 -223 89%0A0 147 46 171 135 24 89 -13 167 -98 208 -29 14 -53 31 -53 38 0 19 45 105 73%0A138 13 16 29 39 36 51 26 50 -22 113 -87 113 -30 0 -44 -8 -84 -50z'/%3E%3C/g%3E%3C/svg%3E%0A");
   background-size:cover;
   content: '';
 }
@@ -2557,7 +2558,8 @@ a.alt-header__left__menu-trigger:hover{
 /* alt.css originally from child theme, to be integrated */
 
 blockquote.wp-block-quote::before {
-  background-image: url(../images/alt-quote.png);
+  /* background-image: url(../images/alt-quote.png); */
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 20010904//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'%3E%3Csvg version='1.0' xmlns='http://www.w3.org/2000/svg' width='107.000000pt' height='83.000000pt' viewBox='0 0 107.000000 83.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,83.000000) scale(0.100000,-0.100000)'%0Afill='%23ff0000' stroke='none'%3E%3Cpath d='M268 720 c-97 -101 -153 -259 -146 -410 8 -149 70 -223 188 -223 89%0A0 147 46 171 135 24 89 -13 167 -98 208 -29 14 -53 31 -53 38 0 19 45 105 73%0A138 13 16 29 39 36 51 26 50 -22 113 -87 113 -30 0 -44 -8 -84 -50z'/%3E%3Cpath d='M748 720 c-97 -101 -153 -259 -146 -410 8 -149 70 -223 188 -223 89%0A0 147 46 171 135 24 89 -13 167 -98 208 -29 14 -53 31 -53 38 0 19 45 105 73%0A138 13 16 29 39 36 51 26 50 -22 113 -87 113 -30 0 -44 -8 -84 -50z'/%3E%3C/g%3E%3C/svg%3E%0A");
 }
 .btn-readmore{
   padding-right:-15px;
