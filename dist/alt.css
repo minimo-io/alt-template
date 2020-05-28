@@ -2111,7 +2111,8 @@ a.alt-header__left__menu-trigger:hover{
   transition:all .5s ease 0s;
 }
 .alt-header-sticky-logo{
-  width: 70px;
+  /* width: 70px; */
+  width: 6.5rem;
   position:relative;
   top:0;
 }
