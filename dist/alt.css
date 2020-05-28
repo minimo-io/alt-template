@@ -2101,7 +2101,8 @@ a.alt-header__left__menu-trigger:hover{
 }
 .alt-header__logo {
   color: #c56b25;
-  width:70px;
+  /* width:70px; */
+  width:6.5rem;
   position:relative;
   top:0px;
   transition:all .5s ease 0s;
@@ -2229,7 +2230,7 @@ a.alt-header__left__menu-trigger:hover{
 @media (max-width: 640px){
   .hide-730{ display:none; }
   .alt-header__left{ padding-left:1.5rem; }
-  .alt-header__right{ padding-right:1.5rem; }
+  .alt-header__right{ padding-right:1rem; }
 
   .alt-header{ letter-spacing: 0.06rem;}
   .alt-header__left a, .alt-header__right a, .alt-separator{ font-size:12px; }
@@ -2294,7 +2295,7 @@ a.alt-header__left__menu-trigger:hover{
   .post-content h4{ font-size:1.2rem; }
   .post-content h5{ font-size:1.1rem; }
 
-  .alt-header__logo{ width:70px; }
+  .alt-header__logo{ width:4.5rem; }
   .alt-header__logo__link{ width:5.2rem; }
 
   .home-title{ line-height: normal; }
