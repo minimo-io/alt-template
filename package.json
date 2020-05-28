@@ -1,0 +1,26 @@
+{
+  "name": "@minimo-labs/alt-template",
+  "version": "0.5.2",
+  "description": "A minimalist Bootstrap theme with an absolute focus on content.",
+  "main": "./dist/alt.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minimo-io/alt-template.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "theme",
+    "minimalist",
+    "minimalism",
+    "minimo"
+  ],
+  "author": "minimo",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/minimo-io/alt-template/issues"
+  },
+  "homepage": "https://minimo.io/en/2019/10-alt-template/"
+}
