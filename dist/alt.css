@@ -2209,7 +2209,8 @@ a.alt-header__left__menu-trigger:hover{
   font-style:italic;
 }
 .home-title{ font-size:1.2rem; color:rgb(133, 100, 4) !important;}
-.home-title-link:hover{color:black !important;}
+.home-title-link i{ color:rgb(133, 100, 4); font-size:.9rem; }
+.home-title-link i:hover{color:black !important;}
 .card-posts-deck .card-meta{ font-size:.8rem; }
 
 /* MAX MEDIA VIEWPORTS */
@@ -2301,6 +2302,7 @@ a.alt-header__left__menu-trigger:hover{
   .alt-header__logo__link{ width:5.2rem; }
 
   .home-title{ line-height: normal; }
+  .home-title-link i{ font-size:.7rem; }
 }
 @media (max-width: 340px){
   .hide-730{ display:none; }
@@ -2353,7 +2355,7 @@ a.alt-header__left__menu-trigger:hover{
   .post-content h5{ font-size:1rem; }
 
   .home-title{ font-size:1rem; }
-
+  .home-title-link i{ font-size:.6rem; }
   /* .social-icons a, .social i{ font-size:.8rem !important; } */
 
 }
