@@ -2,12 +2,13 @@
 /*!
  * ALT. Template - https://minimo.io/en/2019/10-alt-template/
  * Developer: minimo.io
- * Version: 0.5.5
+ * Version: 0.5.6
  * License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html
  *
  * Copyright (c) 2020 alt
  */
-@import 'https://use.fontawesome.com/releases/v5.7.0/css/all.css';
+/* @import 'https://use.fontawesome.com/releases/v5.7.0/css/all.css'; */
+@import 'https://use.fontawesome.com/releases/v5.12.1/css/all.css';
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
 @import 'https://fonts.googleapis.com/css?family=Space+Mono|Permanent+Marker';
 ::selection { background: rgba(255,255,0,0.5); }
@@ -2217,7 +2218,7 @@ a.alt-header__left__menu-trigger:hover{
 @media (max-width: 730px){
   .alt-header__left{ padding-left:2rem; }
   .alt-header__right{ padding-right:2rem; }
-  .alt-header__left a, .alt-header__right a, .alt-separator{ font-size:13px; }
+  .alt-header__left a, .alt-header__right a, .alt-separator{ font-size:13px !important; }
 
   .home-title{ line-height: normal; }
 }
