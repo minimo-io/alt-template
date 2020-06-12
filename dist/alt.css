@@ -2290,9 +2290,6 @@ a.alt-header__left__menu-trigger:hover{
   .modal .search-form input, #mc-embedded-subscribe{ line-height:1.3; margin-bottom:.4em; }
 
   .btn-readmore{ top:0px; font-size:13px; }
-  .category-title, .post-title{ font-size:2rem; }
-
-  .post-subtitle, .category-subtitle{ font-size:1rem; }
 
   .post-content h2{ font-size:1.6rem; }
   .post-content h3{ font-size:1.4rem; }
@@ -2597,6 +2594,9 @@ blockquote.wp-block-quote::before {
 }
 @media (max-width: 576px) {
   .alt-header__newsletter{ padding:0px 5px 4px 6px; }
+  .category-title, .post-title {
+      font-size: 1.3rem;
+  }
   .alt-footer{ font-size:.8rem; }
   .primary-container{
     padding-top:15%;
@@ -2606,6 +2606,10 @@ blockquote.wp-block-quote::before {
     padding-left: .7rem;
     padding-right: .7rem;
   }
-
+  .figure-caption{ font-size: .5rem; }
+  .alert{ font-size:.8rem; }
+  .post-subtitle, .category-subtitle {
+    font-size: .9rem;
+  }
 }
 /*  End of Bootstrap like breakpoints -------------- */
