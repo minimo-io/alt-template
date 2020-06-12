@@ -2539,6 +2539,15 @@ a.alt-header__left__menu-trigger:hover{
   margin-left: auto;
   margin-right: auto;
 }
+.alt-footer{  }
+.alt-footer-complex {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
 /* POST FORMATS */
 /* Standard (centered header texts)  */
 .format-standard .alt-post-header{ margin:5% 10% 0 10%; text-align:center; }
@@ -2588,6 +2597,7 @@ blockquote.wp-block-quote::before {
 }
 @media (max-width: 576px) {
   .alt-header__newsletter{ padding:0px 5px 4px 6px; }
+  .alt-footer{ font-size:.8rem; }
   .primary-container{
     padding-top:15%;
   }
