@@ -2393,11 +2393,6 @@ a.alt-header__left__menu-trigger:hover{
   .post-metabox{ padding-left:0; width:95%;}
 }
 @media (min-width: 640px){
-  /* sytanx highlighters */
-  .enlighter-default{
-    font-size:.9rem;
-  }
-  /* end sytanx highlighters */
   #submit{ font-size:1.2rem; }
   .post-content{ font-size:1.2rem; letter-spacing: normal;line-height: 33px;}
   .comment-notes, .comment-form textarea, .comment-form input, .comment-form-cookies-consent,
@@ -2629,10 +2624,6 @@ blockquote.wp-block-quote::before {
   .post-subtitle, .category-subtitle {
     font-size: .9rem;
   }
-  /* sytanx highlighters */
-  .enlighter-default{
-    font-size:.7rem;
-  }
-  /* end sytanx highlighters */
+
 }
 /*  End of Bootstrap like breakpoints -------------- */
