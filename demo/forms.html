@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ALT. Template</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.0/animate.min.css">
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@minimo-labs/alt-template/dist/alt.css"> -->
+    <link rel="stylesheet" href="../dist/alt.css">
+
+  </head>
+  <body>
+
+
+    <header class="alt-header alt-header--top">
+      <div class="alt-container alt-header__container">
+
+        <a class="alt-header__logo__link" href="./">
+          <img class="alt-header__logo" src="./assets/images/minimo-blog-logo-3.png" />
+        </a>
+
+      <nav class="alt-header__left">
+        <a class="alt-header__left__menu-trigger" href="#" onclick="jQuery('#hamburger-show-menu').trigger('click'); return false;" data-menu-text="Menú" data-menu-close="Cerrar" role="button" aria-expanded="true">Menú</a>
+        <span class="alt-header__separator alt-separator">/</span>
+        <span class="alt-header__search">
+            <a class="alt-header__search-trigger" href="#" data-toggle="modal" data-target="#alt-modal">
+              <span class="alt-header__search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="15.44" height="15.441" viewBox="-0.449 -0.658 15.44 15.441"><circle fill="none" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" cx="5.974" cy="5.765" r="3.482"></circle><path fill="none" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" d="M8.436 8.228l3.446 3.5"></path></svg></span>
+            </a>
+        </span>
+      </nav>
+      <div class="alt-header__search__cover" onclick="document.body.classList.remove('search--open'); return false;"></div>
+      <nav class="alt-header__right">
+        <div class="alt-header__social-icons alt-social-hovers">
+          <div class="alt-social-hovers__item"></div>
+          <div class="alt-social-hovers__item"></div>
+          <div class="alt-social-hovers__item"></div>
+        </div>
+        <div class="alt-header__donate alt-hide">
+          <a href="#">Donar</a>
+          <span class="header__separator alt-separator">/</span>
+        </div>
+
+        <div class="alt-header__newsletter">
+          <a href="http://eepurl.com/gI65y9" data-toggle="modal" data-target="#subscribe-modal">
+            <i class="fas fa-paper-plane hide-730"></i>
+            Suscribirse
+          </a>
+        </div>
+
+        <span class="alt-header__separator alt-separator alt-hide">/</span>
+        <div class="alt-header__user alt-header__user--anonymous alt-hide">
+          <div class="alt-user-nav">
+            <a class="alt-header__sign-in" href="#" title="Sign In">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path fill="none" d="M0 0h24v24H0V0z"></path><g><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z"></path></g></svg>
+              <span>Ingresar</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+      </div>
+    </header>
+    <div id="fullscreen-menu">
+      <div class="menu-inner">
+        <nav class="menu-nav menu-nav-primary">
+            <ul id="menu-alt_menu_primario" class="menu"><li id="menu-item-2115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2115"><a href="https://alt.minimo.io/">Inicio</a></li>
+              <li id="menu-item-1976" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1976"><a href="https://alt.minimo.io/inalterados/">Inalterados</a></li>
+              <li id="menu-item-2124" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2124"><a href="https://alt.minimo.io/buscavidas/">Buscavidas</a></li>
+              <li id="menu-item-2111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2111"><a href="https://alt.minimo.io/wanderlust/">Wanderlust</a></li>
+            </ul>
+            <ul>
+              <li id="menu-item-more" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-more"><a class="menu-item-button-more" href="#" aria-expanded="true" role="button"><i class="fas fa-plus"></i></a></li>
+            </ul>
+        </nav>
+        <nav class="menu-nav menu-nav-secondary alt-hide">
+          <ul id="menu-alt_menu_secundario" class="menu">
+            <li id="menu-item-2122" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2122"><a href="https://alt.minimo.io/vitamina/">Vitamina</a></li>
+            <li id="menu-item-2123" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2123"><a href="https://alt.minimo.io/al-santo-pepe/">Al santo pepe</a></li>
+          </ul>
+          <ul>
+            <li id="menu-item-more" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-more"><a class="menu-item-button-back" href="#" aria-expanded="true" role="button"><i class="fas fa-reply"></i></a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <div class="social-icons">
+              <a href="https://wa.me/59896666902" target="_blank" class="icon">
+                <i class="fab fa-whatsapp-square fa-lg"></i>
+              </a>
+              <div class="langs icon">
+                <a href="#">NOSOTROS</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="back-to-the-future"><i class="fas fa-angle-double-up"></i></a>
+
+
+
+      <article id="post-2583" class="post container post-2583 type-post status-publish format-aside has-post-thumbnail hentry category-vitamina tag-fitness post_format-post-format-aside" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <header class="alt-post-margins alt-top-title white-back">
+  <a class="breadcrumb-back-button" href="https://alt.minimo.io/vitamina/" aria-expanded="true" role="button"><i class="fas fa-reply"></i>&nbsp;volver</a>
+
+
+  <h1 class="post-title basic-mono" itemprop="name headline">Ejemplo de estilo de formularios</h1>
+  <h2 class="post-subtitle">Los formularios de ALT. intentan ser simples, efectivos y elegantes. Otra cosa es que efectivamente lo sean.</h2>
+  <div class="container post-metabox mt-3 pl-2 pl-md-0">
+  <div class="row justify-content-start">
+  <div class="post-metabox-avatar-box">
+  <a href="https://alt.minimo.io/author/minimo/" rel="noopener">
+  <img alt="user-avatar" class="post-user-avatar img-fluid img-thumbnail" src="https://secure.gravatar.com/avatar/a8d3c136b11a4b2447737b54e94c7adb?s=80&amp;d=mm&amp;r=g" width="51" height="51">
+  </a>
+  </div>
+  <div class="post-metabox-right">
+  <a href="https://alt.minimo.io/author/minimo/" rel="noopener">Mínimo</a>
+  <div class="post-metabox-bottom">
+  <a rel="noopener" href="https://alt.minimo.io/vitamina/flexibilidad-el-lado-olvidado-del-entrenamiento-fisico-completo/">
+  <time datetime="noviembre 19, 2019" itemprop="datePublished">19 Nov</time>
+  </a> · <span data-toggle="tooltip" data-placement="top" title="" data-original-title="902 palabras">5 min.</span>
+  <span style="padding-left: 4px;">
+  <svg class="star-15px_svg__svgIcon-use" width="15" height="15" viewBox="0 0 15 15" style="margin-top: -2px;"><path d="M7.44 2.32c.03-.1.09-.1.12 0l1.2 3.53a.29.29 0 0 0 .26.2h3.88c.11 0 .13.04.04.1L9.8 8.33a.27.27 0 0 0-.1.29l1.2 3.53c.03.1-.01.13-.1.07l-3.14-2.18a.3.3 0 0 0-.32 0L4.2 12.22c-.1.06-.14.03-.1-.07l1.2-3.53a.27.27 0 0 0-.1-.3L2.06 6.16c-.1-.06-.07-.12.03-.12h3.89a.29.29 0 0 0 .26-.19l1.2-3.52z"></path></svg>
+  </span>
+  </div>
+  </div>
+  </div>
+  </div>
+  </header>
+  <div class="alt-post-margins" itemprop="articleBody">
+    <br><br>
+
+    <div class="card alt-form alt-form-dark mt-4">
+      <div class="card-body z-index-6000">
+        <h4 class="card-title">Formulario de ingreso</h4>
+        <h6 class="card-subtitle text-muted mb-2">Class .alt-form-dark</h6>
+        <form class="mt-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+          <button type="submit" class="btn btn-dark btn-sm-block">Ingresar</button>
+          <button type="submit" class="btn btn-outline-dark btn-sm-block mt-2 mt-sm-0">Registrarse</button>
+        </form>
+      </div>
+      <div class="overlay overlay-dark"></div>
+    </div>
+
+
+    <div class="card alt-form alt-form-light mt-4">
+      <div class="card-body z-index-6000">
+        <h4 class="card-title">Formulario de ingreso</h4>
+        <h6 class="card-subtitle text-muted mb-2">Class .alt-form-light</h6>
+        <form class="mt-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+          <button type="submit" class="btn btn-light btn-sm-block">Ingresar</button>
+          <button type="submit" class="btn btn-outline-light btn-sm-block mt-2 mt-sm-0">Registrarse</button>
+        </form>
+      </div>
+      <div class="overlay overlay-light"></div>
+    </div>
+
+    <div class="card alt-form alt-form-pink mt-4">
+
+      <div class="card-body z-index-6000">
+        <h4 class="card-title">Formulario de ingreso</h4>
+        <h6 class="card-subtitle text-muted mb-2">Class .alt-form-pink</h6>
+        <form class="mt-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+          <button type="submit" class="btn btn-pink btn-sm-block">Ingresar</button>
+          <button type="submit" class="btn btn-outline-pink btn-sm-block mt-2 mt-sm-0">Registrarse</button>
+        </form>
+      </div>
+      <div class="overlay overlay-pink"></div>
+    </div>
+
+    <div class="card alt-form alt-form-success mt-4">
+      <div class="card-body z-index-6000">
+        <h4 class="card-title">Formulario de ingreso</h4>
+        <h6 class="card-subtitle text-muted mb-2">Class .alt-form-success</h6>
+        <form class="mt-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+          <button type="submit" class="btn btn-success btn-sm-block">Ingresar</button>
+          <button type="submit" class="btn btn-outline-success btn-sm-block mt-2 mt-sm-0">Registrarse</button>
+        </form>
+      </div>
+      <div class="overlay overlay-success"></div>
+    </div>
+
+
+    <div class="card alt-form alt-form-green mt-4">
+
+      <div class="card-body z-index-6000">
+        <h4 class="card-title">Formulario de ingreso</h4>
+        <h6 class="card-subtitle text-muted mb-2">Class .alt-form-green</h6>
+        <form class="mt-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+          <button type="submit" class="btn btn-green btn-sm-block">Ingresar</button>
+          <button type="submit" class="btn btn-outline-green btn-sm-block mt-2 mt-sm-0">Registrarse</button>
+        </form>
+      </div>
+      <div class="overlay overlay-very-green"></div>
+    </div>
+
+    <div class="card alt-form alt-form-primary mt-4">
+
+      <div class="card-body z-index-6000">
+        <h4 class="card-title">Formulario de ingreso</h4>
+        <h6 class="card-subtitle text-muted mb-2">Class .alt-form-primary</h6>
+        <form class="mt-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+          <button type="submit" class="btn btn-primary btn-sm-block">Ingresar</button>
+          <button type="submit" class="btn btn-outline-primary btn-sm-block mt-2 mt-sm-0">Registrarse</button>
+        </form>
+      </div>
+      <div class="overlay overlay-primary"></div>
+    </div>
+
+    <div class="card alt-form alt-form-orange mt-4">
+
+      <div class="card-body z-index-6000">
+        <h4 class="card-title">Formulario de ingreso</h4>
+        <h6 class="card-subtitle text-muted mb-2">Class .alt-form-orange</h6>
+        <form class="mt-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+          <button type="submit" class="btn btn-orange btn-sm-block">Ingresar</button>
+          <button type="submit" class="btn btn-outline-orange btn-sm-block mt-2 mt-sm-0">Registrarse</button>
+        </form>
+      </div>
+      <div class="overlay overlay-orange"></div>
+    </div>
+
+    <div class="card alt-form alt-form-cian mt-4">
+      <div class="card-body z-index-6000">
+        <h4 class="card-title">Formulario de ingreso</h4>
+        <h6 class="card-subtitle text-muted mb-2">Class .alt-form-cian</h6>
+        <form class="mt-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+          <button type="submit" class="btn btn-cian btn-sm-block">Ingresar</button>
+          <button type="submit" class="btn btn-outline-cian btn-sm-block mt-2 mt-sm-0">Registrarse</button>
+        </form>
+      </div>
+      <div class="overlay overlay-cian"></div>
+    </div>
+
+
+    <div class="card alt-form alt-form-danger mt-4">
+      <div class="card-body z-index-6000">
+        <h4 class="card-title">Formulario de ingreso</h4>
+        <h6 class="card-subtitle text-muted mb-2">Class .alt-form-danger</h6>
+        <form class="mt-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+          <button type="submit" class="btn btn-danger btn-sm-block">Ingresar</button>
+          <button type="submit" class="btn btn-outline-danger btn-sm-block mt-2 mt-sm-0">Registrarse</button>
+        </form>
+      </div>
+      <div class="overlay overlay-danger"></div>
+    </div>
+
+    <div class="card alt-form alt-form-purple mt-4">
+      <div class="card-body z-index-6000">
+        <h4 class="card-title">Formulario de ingreso</h4>
+        <h6 class="card-subtitle text-muted mb-2">Class .alt-form-purple</h6>
+        <form class="mt-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+          <button type="submit" class="btn btn-purple btn-sm-block">Ingresar</button>
+          <button type="submit" class="btn btn-outline-purple btn-sm-block mt-2 mt-sm-0">Registrarse</button>
+        </form>
+      </div>
+      <div class="overlay overlay-purple"></div>
+    </div>
+
+    <div class="card alt-form alt-form-warning mt-4">
+      <div class="card-body z-index-6000">
+        <h4 class="card-title">Formulario de ingreso</h4>
+        <h6 class="card-subtitle text-muted mb-2">Class .alt-form-warning</h6>
+        <form class="mt-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+          <button type="submit" class="btn btn-warning btn-sm-block">Ingresar</button>
+          <button type="submit" class="btn btn-outline-warning btn-sm-block mt-2 mt-sm-0">Registrarse</button>
+        </form>
+      </div>
+      <div class="overlay overlay-warning"></div>
+    </div>
+
+    <div class="card alt-form alt-form-info mt-4">
+      <div class="card-body z-index-6000">
+        <h4 class="card-title">Formulario de ingreso</h4>
+        <h6 class="card-subtitle text-muted mb-2">Class .alt-form-info</h6>
+        <form class="mt-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+          <button type="submit" class="btn btn-info btn-sm-block">Ingresar</button>
+          <button type="submit" class="btn btn-outline-info btn-sm-block mt-2 mt-sm-0">Registrarse</button>
+        </form>
+      </div>
+      <div class="overlay overlay-info"></div>
+    </div>
+
+    <div class="card alt-form alt-form-secondary mt-4">
+      <div class="card-body z-index-6000">
+        <h4 class="card-title">Formulario de ingreso</h4>
+        <h6 class="card-subtitle text-muted mb-2">Class .alt-form-secondary</h6>
+        <form class="mt-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="form-group">
+             <label for="exampleInputPassword1">Password</label>
+             <input type="password" class="form-control" id="exampleInputPassword1">
+           </div>
+          <button type="submit" class="btn btn-secondary btn-sm-block">Ingresar</button>
+          <button type="submit" class="btn btn-outline-secondary btn-sm-block mt-2 mt-sm-0">Registrarse</button>
+        </form>
+      </div>
+      <div class="overlay overlay-secondary"></div>
+    </div>
+
+    <div class="card mt-4 alt-form"><!----><!----><div class="card-body"><h4 class="card-title">Formulario de registro</h4><h6 class="card-subtitle text-muted mb-2">Registrate en Hopmasters y disfutá de todas las funciones cerveceras</h6><form class=""><div id="input-group-0" role="group" class="form-group"><label id="input-group-0__BV_label_" for="input-name" class="d-block">Nombre</label><div class="bv-no-focus-ring"><input id="input-name" type="text" placeholder="Nombre" required="required" aria-required="true" class="form-control"><!----><!----><!----></div></div><div id="input-group-1" role="group" class="form-group"><label id="input-group-1__BV_label_" for="input-1" class="d-block">Email address:</label><div class="bv-no-focus-ring"><input id="input-email" type="email" placeholder="Enter email" required="required" aria-required="true" class="form-control"><!----><!----><!----></div></div><div id="input-group-2" role="group" class="form-group"><label id="input-group-2__BV_label_" for="input-pwd" class="d-block">Contraseña</label><div class="bv-no-focus-ring"><input id="input-pwd" type="password" placeholder="Contraseña" required="required" aria-required="true" class="form-control"><!----><!----><!----></div></div><div id="input-group-3" role="group" class="form-group"><label id="input-group-3__BV_label_" for="input-pwd-repeat" class="d-block">Repite la contraseña</label><div class="bv-no-focus-ring"><input id="input-pwd-repeat" type="password" placeholder="Repite la contraseña" required="required" aria-required="true" class="form-control"><!----><!----><!----></div></div><button type="submit" class="btn btn-primary">Submit</button></form></div><!----><!----></div>
+
+  </div>
+  <div class="post-divider"><hr></div>
+  <div id="comments" class="comments-area">
+  <div id="respond" class="comment-respond">
+  <h3 id="reply-title" class="comment-reply-title">Deja un comentario <small><a rel="nofollow" id="cancel-comment-reply-link" href="/vitamina/flexibilidad-el-lado-olvidado-del-entrenamiento-fisico-completo/#respond" style="display:none;">Cancelar respuesta</a></small></h3> <form action="https://alt.minimo.io/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate="">
+  <p class="comment-notes"><span id="email-notes">Tu dirección de correo electrónico no será publicada.</span> Los campos obligatorios están marcados con <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comentario</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Nombre <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required="required"></p>
+  <p class="comment-form-email"><label for="email">Correo electrónico <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required="required"></p>
+  <p class="comment-form-url"><label for="url">Web</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200"></p>
+  <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"><label for="wp-comment-cookies-consent">Guardar mi nombre, correo electrónico y sitio web en este navegador para la próxima vez que haga un comentario.</label></p>
+  <p class="form-submit"><input name="submit" type="submit" id="submit" class="btn btn-primary" value="Publicar comentario"> <input type="hidden" name="comment_post_ID" value="2583" id="comment_post_ID">
+  <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+  </p> </form>
+  </div>
+  </div>
+  </article>
+
+
+
+    <div id="alt-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <form id="searchform" class="search-form" method="get" action="https://alt.minimo.io/">
+            <div class="row">
+            <div class="col">
+            <input type="text" id="search-field" class="search-field" name="s" placeholder="&iquest;Qu&eacute; buscas?" value="">
+            </div>
+            <div class="col-sm-auto text-center">
+            <input class="btn btn-warning btn-extralg btn-search-field" style="width:100%;" type="submit" value="Buscar">
+            </div>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="subscribe-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-modal="true">
+      <div class="modal-dialog modal-dialog-centered flipInX animated faster" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+
+          <div id="mc_embed_signup">
+            <form action="https://minimo.us5.list-manage.com/subscribe/post?u=68c24e5e264d305f85e6cd9cd&amp;id=5a6086a9a6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+              <div id="mc_embed_signup_scroll">
+                <div class="mc-field-group">
+                  <label for="mce-EMAIL">Correo electrónico <span class="asterisk">*</span></label>
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-FNAME">Nombre </label>
+                  <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-LNAME">Apellido </label>
+                  <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                </div>
+
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_68c24e5e264d305f85e6cd9cd_5a6086a9a6" tabindex="-1" value=""></div>
+              </div>
+              <button type="submit" id="mc-embedded-subscribe" class="btn btn-warning btn-extralg btn-search-field btn-block">Suscribirse</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="../dist/alt.js"></script>
+  </body>
+</html>
