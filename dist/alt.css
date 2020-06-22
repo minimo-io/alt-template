@@ -2336,7 +2336,14 @@ a.alt-header__left__menu-trigger:hover{
   margin-top:5px;
   font-style:italic;
 }
-.home-title{ font-size:1.2rem; color:rgb(133, 100, 4) !important;}
+.home-title{
+  font-size:1.2rem; 
+  color:rgb(133, 100, 4) !important;
+  /* font-size: 1rem !important; */
+  line-height: normal !important;
+  font-family: Nunito, sans-serif;
+  font-weight: bold;
+}
 .home-title-link i{ color:rgb(133, 100, 4); font-size:.9rem; }
 .home-title-link i:hover{color:black !important;}
 .card-posts-deck .card-meta{ font-size:.8rem; }
@@ -2517,8 +2524,6 @@ a.alt-header__left__menu-trigger:hover{
   .social{ font-size:.8rem; }
   .langs{ margin-left: 2rem; }
 
-  .home-title{ font-size:1rem; }
-
 }
 @media (min-width: 768px){
   .post-metabox{ padding-left:0; width:95%;}
@@ -2563,7 +2568,7 @@ a.alt-header__left__menu-trigger:hover{
   .post-content h5{ font-size:1.3rem; }
   .post-content h6{ font-size:1.1rem; }
 
-  .home-title{ font-size:1.2rem; }
+
 }
 
 
