@@ -2767,7 +2767,7 @@ blockquote.wp-block-quote::before {
   }
   .alt-footer{ font-size:.8rem; }
   .primary-container{
-    padding-top:15%;
+    padding-top:2rem;
   }
   .primary-container,
   .post{
