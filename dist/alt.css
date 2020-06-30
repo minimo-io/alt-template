@@ -2337,7 +2337,7 @@ a.alt-header__left__menu-trigger:hover{
   font-style:italic;
 }
 .home-title{
-  font-size:1.2rem; 
+  font-size:1.2rem;
   color:rgb(133, 100, 4) !important;
   /* font-size: 1rem !important; */
   line-height: normal !important;
@@ -2792,6 +2792,13 @@ blockquote.wp-block-quote::before {
   .alt-form button, input[type=submit]{
     font-size:.7rem;
   }
+
+  .post-metabox-right{
+    padding-right:0;
+  }
+  /* POST FORMATS */
+  .format-standard { margin-top: 2rem; }
+  /* END OF POST FORMATS */
 }
 @media (max-width: 768px) {
 
