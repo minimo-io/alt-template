@@ -2435,7 +2435,7 @@ a.alt-header__left__menu-trigger:hover{
   .alt-header__logo{ width:4.5rem; }
   .alt-header__logo__link{ width:5.2rem; }
 
-  .home-title{ line-height: normal !important; fonts-size:.9rem !important; }
+  .home-title{ line-height: normal !important; font-size:.9rem !important; }
   .home-title-link i{ font-size:.7rem; }
 }
 @media (max-width: 340px){
