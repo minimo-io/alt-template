@@ -2797,7 +2797,7 @@ blockquote.wp-block-quote::before {
     padding-right:0;
   }
   /* POST FORMATS */
-  .format-standard { margin-top: 2rem; }
+  .format-standard { margin-top: 2rem !important; }
   /* END OF POST FORMATS */
 }
 @media (max-width: 768px) {
