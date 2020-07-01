@@ -2,7 +2,7 @@
 /*!
  * ALT. Template - https://minimo.io/en/2019/10-alt-template/
  * Developer: minimo.io
- * Version: 0.6.11
+ * Version: 0.6.12
  * License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html
  *
  * Copyright (c) 2020 alt
@@ -2435,7 +2435,7 @@ a.alt-header__left__menu-trigger:hover{
   .alt-header__logo{ width:4.5rem; }
   .alt-header__logo__link{ width:5.2rem; }
 
-  .home-title{ line-height: normal; }
+  .home-title{ line-height: normal !important; font-size:.9rem !important; }
   .home-title-link i{ font-size:.7rem; }
 }
 @media (max-width: 340px){
