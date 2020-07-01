@@ -2,7 +2,7 @@
 /*!
  * ALT. Template - https://minimo.io/en/2019/10-alt-template/
  * Developer: minimo.io
- * Version: 0.6.1
+ * Version: 0.6.11
  * License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html
  *
  * Copyright (c) 2020 alt
@@ -2823,3 +2823,11 @@ blockquote.wp-block-quote::before {
 
 }
 /*  End of Bootstrap like breakpoints -------------- */
+/*
+"No sobrevive ni el mas fuerte ni el mas inteligente, sobrevive el que
+tiene espíritu de sobrevivir, el que le gusta la vida.
+A Javie Methol le faltaba un ojo, le faltaba un pulmón, se le murió la mujer,
+pero el tipo amanecía con una sonrisa, y con eso no hay con qué darle en la vida.
+Y por eso creo que es muy importante programarnos mentalmente, de cómo
+manejamos las cosas y la vida y no de lo que te pasa" - Roberto Canessa
+*/
