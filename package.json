@@ -1,6 +1,6 @@
 {
   "name": "@minimo-labs/alt-template",
-  "version": "0.6.1",
+  "version": "0.6.13",
   "description": "A minimalist Bootstrap theme with an absolute focus on content.",
   "main": "./dist/alt.css",
   "scripts": {
