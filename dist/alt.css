@@ -478,17 +478,6 @@ body {
     margin-left: 20px;
     font-weight: 400
 }
-.no-shadow{
-  background-color: transparent !important;
-  border-color: transparent !important;
-  box-shadow: none !important;
-}
-.softer{
-  opacity:.7;
-}
-.gold{
-  color:#e0e334;
-}
 .btn-primary {
     background-color: #0086b3;
     border-color: #0086b3
@@ -1540,7 +1529,17 @@ ol li {
 /* .alt-form-warning h4, .alt-form-warning label{ color:#f2f734; } */
 .alt-form-info h4, .alt-form-info label{ color:#17a2b8; }
 
-
+.no-shadow{
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+.softer{
+  opacity:.7;
+}
+.gold{
+  color:#e0e334;
+}
 .btn-loadmore{
   width:100% !important;
   font-size:1.5rem;
