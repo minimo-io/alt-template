@@ -2,15 +2,14 @@
 /*!
  * ALT. Template - https://minimo.io/en/2019/10-alt-template/
  * Developer: minimo.io
- * Version: 0.6.15
+ * Version: 0.6.20
  * License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html
  *
  * Copyright (c) 2020 alt
  */
-/* @import 'https://use.fontawesome.com/releases/v5.7.0/css/all.css'; */
 @import 'https://use.fontawesome.com/releases/v5.12.1/css/all.css';
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
-@import 'https://fonts.googleapis.com/css?family=Space+Mono|Permanent+Marker';
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&family=Space+Mono&display=swap');
+
 ::selection { background: rgba(255,255,0,0.5); }
 
 
@@ -479,7 +478,17 @@ body {
     margin-left: 20px;
     font-weight: 400
 }
-
+.no-shadow{
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+.softer{
+  opacity:.7;
+}
+.gold{
+  color:#e0e334;
+}
 .btn-primary {
     background-color: #0086b3;
     border-color: #0086b3
