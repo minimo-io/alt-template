@@ -379,7 +379,9 @@ body {
 .post a:active {
     border-bottom: 2px solid #0086b3
 }
-
+.btn.disabled, .btn:disabled{
+  opacity: .5;
+}
 /* .nav {
     min-height: 64px
 } */
