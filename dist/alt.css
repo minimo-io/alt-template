@@ -2,7 +2,7 @@
 /*!
  * ALT. Template - https://minimo.io/en/2019/10-alt-template/
  * Developer: minimo.io
- * Version: 0.6.22
+ * Version: 0.6.25
  * License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html
  *
  * Copyright (c) 2020 alt
@@ -1068,7 +1068,7 @@ blockquote {
     padding-top: 6%;
     margin: 1.5em 16px;
     color: #333;
-    line-height: 1.8;
+    line-height: 1;
     border-left: .75em solid #cbcfd3;
     background-color: #fff!important
 }
@@ -1598,6 +1598,7 @@ blockquote.wp-block-quote p, blockquote.wp-block-quote cite{
 }
 blockquote.wp-block-quote cite{
   color:#7b868c;
+  line-height:1;
 }
 blockquote.wp-block-quote p:first-of-type::first-letter{
   float: inherit;
